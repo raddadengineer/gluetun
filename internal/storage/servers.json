@@ -204238,13 +204238,13 @@
   },
   "torguard": {
     "version": 3,
-    "timestamp": 1650970876,
+    "timestamp": 1689696112,
     "servers": [
       {
         "vpn": "openvpn",
         "country": "Australia",
         "city": "Sydney",
-        "hostname": "au.torguardvpnaccess.com",
+        "hostname": "au.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204264,11 +204264,9 @@
           "193.56.253.98",
           "193.56.253.114",
           "193.56.253.130",
-          "193.56.253.146",
           "217.138.205.98",
           "217.138.205.106",
           "217.138.205.114",
-          "217.138.205.194",
           "217.138.205.202",
           "217.138.205.210",
           "217.138.205.218"
@@ -204277,7 +204275,7 @@
       {
         "vpn": "openvpn",
         "country": "Austria",
-        "hostname": "aus.torguardvpnaccess.com",
+        "hostname": "aus.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204290,19 +204288,8 @@
       },
       {
         "vpn": "openvpn",
-        "country": "Belarus",
-        "hostname": "bl.torguardvpnaccess.com",
-        "tcp": true,
-        "udp": true,
-        "ips": [
-          "95.47.99.12",
-          "95.47.99.12"
-        ]
-      },
-      {
-        "vpn": "openvpn",
         "country": "Belgium",
-        "hostname": "bg.torguardvpnaccess.com",
+        "hostname": "bg.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204322,7 +204309,7 @@
       {
         "vpn": "openvpn",
         "country": "Brazil",
-        "hostname": "br.torguardvpnaccess.com",
+        "hostname": "br.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204336,7 +204323,7 @@
       {
         "vpn": "openvpn",
         "country": "Bulgaria",
-        "hostname": "bul.torguardvpnaccess.com",
+        "hostname": "bul.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204353,19 +204340,39 @@
         "vpn": "openvpn",
         "country": "Canada",
         "city": "Toronto",
-        "hostname": "ca.torguardvpnaccess.com",
+        "hostname": "ca.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
-          "184.75.209.250",
-          "184.75.209.250"
+          "146.70.137.2",
+          "146.70.137.18",
+          "146.70.137.34",
+          "146.70.137.42",
+          "146.70.137.50",
+          "146.70.137.58",
+          "146.70.137.66",
+          "146.70.137.74",
+          "146.70.137.82",
+          "146.70.137.90",
+          "146.70.137.98",
+          "146.70.137.106",
+          "146.70.137.114",
+          "146.70.137.122",
+          "146.70.137.130",
+          "146.70.137.138",
+          "146.70.137.146",
+          "146.70.137.154",
+          "146.70.137.194",
+          "146.70.137.210",
+          "146.70.137.218",
+          "146.70.137.226"
         ]
       },
       {
         "vpn": "openvpn",
         "country": "Canada",
         "city": "Vancouver",
-        "hostname": "vanc.ca.west.torguardvpnaccess.com",
+        "hostname": "cavan.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204389,30 +204396,19 @@
       {
         "vpn": "openvpn",
         "country": "Chile",
-        "hostname": "chil.torguardvpnaccess.com",
+        "hostname": "ch.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
           "37.235.52.19",
-          "37.235.52.71",
+          "37.235.52.64",
           "193.235.146.104"
         ]
       },
       {
         "vpn": "openvpn",
-        "country": "Cyprus",
-        "hostname": "cp.torguardvpnaccess.com",
-        "tcp": true,
-        "udp": true,
-        "ips": [
-          "185.173.226.49",
-          "185.173.226.49"
-        ]
-      },
-      {
-        "vpn": "openvpn",
         "country": "Czech",
-        "hostname": "czech.torguardvpnaccess.com",
+        "hostname": "cz.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204426,7 +204422,7 @@
       {
         "vpn": "openvpn",
         "country": "Denmark",
-        "hostname": "den.torguardvpnaccess.com",
+        "hostname": "dn.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204436,7 +204432,6 @@
           "2.58.46.162",
           "2.58.46.170",
           "2.58.46.178",
-          "2.58.46.186",
           "45.12.221.2",
           "45.12.221.10",
           "45.12.221.18",
@@ -204449,7 +204444,7 @@
       {
         "vpn": "openvpn",
         "country": "Finland",
-        "hostname": "fin.torguardvpnaccess.com",
+        "hostname": "fn.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204461,14 +204456,13 @@
       {
         "vpn": "openvpn",
         "country": "France",
-        "hostname": "fr.torguardvpnaccess.com",
+        "hostname": "fr.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
           "37.120.158.138",
           "93.177.75.2",
           "93.177.75.10",
-          "93.177.75.18",
           "93.177.75.26",
           "93.177.75.34",
           "93.177.75.42",
@@ -204476,7 +204470,6 @@
           "93.177.75.58",
           "93.177.75.66",
           "93.177.75.74",
-          "93.177.75.82",
           "93.177.75.90",
           "93.177.75.98",
           "93.177.75.106",
@@ -204488,25 +204481,40 @@
           "93.177.75.154",
           "93.177.75.162",
           "93.177.75.202",
-          "93.177.75.210",
           "93.177.75.218"
         ]
       },
       {
         "vpn": "openvpn",
         "country": "Germany",
-        "hostname": "gr.torguardvpnaccess.com",
+        "hostname": "ger.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
+          "93.177.73.66",
+          "93.177.73.74",
+          "93.177.73.82",
           "93.177.73.90",
-          "93.177.73.90"
+          "93.177.73.98",
+          "93.177.73.106",
+          "93.177.73.114",
+          "93.177.73.122",
+          "93.177.73.130",
+          "93.177.73.138",
+          "93.177.73.146",
+          "93.177.73.154",
+          "93.177.73.194",
+          "93.177.73.202",
+          "93.177.73.210",
+          "93.177.73.218",
+          "93.177.73.226",
+          "93.177.73.234"
         ]
       },
       {
         "vpn": "openvpn",
         "country": "Greece",
-        "hostname": "gre.torguardvpnaccess.com",
+        "hostname": "gre.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204519,7 +204527,7 @@
         "vpn": "openvpn",
         "country": "Hong",
         "city": "Kong",
-        "hostname": "hk.torguardvpnaccess.com",
+        "hostname": "hk.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204528,7 +204536,6 @@
           "86.107.104.98",
           "86.107.104.106",
           "89.45.6.18",
-          "89.45.6.42",
           "89.45.6.202",
           "89.45.6.210",
           "89.45.6.218",
@@ -204539,7 +204546,7 @@
       {
         "vpn": "openvpn",
         "country": "Hungary",
-        "hostname": "hg.torguardvpnaccess.com",
+        "hostname": "hg.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204550,7 +204557,7 @@
       {
         "vpn": "openvpn",
         "country": "Iceland",
-        "hostname": "ice.torguardvpnaccess.com",
+        "hostname": "ice.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204568,23 +204575,19 @@
         "vpn": "openvpn",
         "country": "India",
         "city": "Bangalore",
-        "hostname": "in.torguardvpnaccess.com",
+        "hostname": "in.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
-          "43.251.180.2",
-          "43.251.180.6",
-          "43.251.180.10",
-          "43.251.180.26",
-          "103.78.121.142",
-          "103.78.121.182",
-          "172.107.172.6"
+          "146.70.142.10",
+          "146.70.142.34",
+          "146.70.142.42"
         ]
       },
       {
         "vpn": "openvpn",
         "country": "Ireland",
-        "hostname": "ire.torguardvpnaccess.com",
+        "hostname": "ire.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204598,7 +204601,7 @@
       {
         "vpn": "openvpn",
         "country": "Israel",
-        "hostname": "isr.torguardvpnaccess.com",
+        "hostname": "isr-loc1.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204609,7 +204612,7 @@
       {
         "vpn": "openvpn",
         "country": "Italy",
-        "hostname": "it.torguardvpnaccess.com",
+        "hostname": "it.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204623,7 +204626,7 @@
       {
         "vpn": "openvpn",
         "country": "Japan",
-        "hostname": "jp.torguardvpnaccess.com",
+        "hostname": "jp.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204639,33 +204642,21 @@
       },
       {
         "vpn": "openvpn",
-        "country": "Latvia",
-        "hostname": "lv.torguardvpnaccess.com",
-        "tcp": true,
-        "udp": true,
-        "ips": [
-          "109.248.149.167",
-          "109.248.149.167"
-        ]
-      },
-      {
-        "vpn": "openvpn",
         "country": "Luxembourg",
-        "hostname": "lux.torguardvpnaccess.com",
+        "hostname": "lux.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
           "5.253.204.58",
           "5.253.204.66",
           "5.253.204.74",
-          "5.253.204.82",
-          "5.253.204.90"
+          "5.253.204.82"
         ]
       },
       {
         "vpn": "openvpn",
         "country": "Mexico",
-        "hostname": "mx.torguardvpnaccess.com",
+        "hostname": "mx.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204679,26 +204670,26 @@
       {
         "vpn": "openvpn",
         "country": "Moldova",
-        "hostname": "md.torguardvpnaccess.com",
+        "hostname": "md.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
           "178.175.131.106",
-          "178.175.131.114"
+          "178.175.131.114",
+          "178.175.138.18"
         ]
       },
       {
         "vpn": "openvpn",
         "country": "Netherlands",
-        "hostname": "nl.torguardvpnaccess.com",
+        "hostname": "nl.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
+          "185.156.172.146",
           "206.217.216.3",
-          "206.217.216.4",
           "206.217.216.6",
           "206.217.216.7",
-          "206.217.216.8",
           "206.217.216.9",
           "206.217.216.10",
           "206.217.216.11",
@@ -204725,7 +204716,7 @@
         "vpn": "openvpn",
         "country": "New",
         "city": "Zealand",
-        "hostname": "nz.torguardvpnaccess.com",
+        "hostname": "nz.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204743,33 +204734,31 @@
       {
         "vpn": "openvpn",
         "country": "Norway",
-        "hostname": "no.torguardvpnaccess.com",
+        "hostname": "no.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
           "185.125.168.247",
           "185.125.168.248",
-          "185.125.169.23",
           "185.125.169.24",
           "185.125.169.25",
           "185.125.169.26",
           "185.125.169.27",
-          "185.125.169.28",
           "185.125.169.29",
           "185.125.169.30",
           "185.125.169.31",
           "185.125.169.32",
           "185.181.61.36",
           "185.181.61.37",
-          "185.181.61.38",
           "185.181.61.39",
-          "185.181.61.40"
+          "185.181.61.40",
+          "185.181.61.151"
         ]
       },
       {
         "vpn": "openvpn",
         "country": "Poland",
-        "hostname": "pl.torguardvpnaccess.com",
+        "hostname": "pl.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204783,20 +204772,19 @@
       {
         "vpn": "openvpn",
         "country": "Portugal",
-        "hostname": "por.torguardvpnaccess.com",
+        "hostname": "pg.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
           "94.46.179.65",
           "94.46.179.70",
-          "94.46.179.75",
           "94.46.179.80"
         ]
       },
       {
         "vpn": "openvpn",
         "country": "Romania",
-        "hostname": "ro.torguardvpnaccess.com",
+        "hostname": "ro.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204805,7 +204793,6 @@
           "31.14.252.146",
           "31.14.252.178",
           "89.40.71.106",
-          "89.46.103.2",
           "89.46.103.106",
           "93.120.27.162",
           "185.45.14.122",
@@ -204818,7 +204805,7 @@
       {
         "vpn": "openvpn",
         "country": "Singapore",
-        "hostname": "singp.torguardvpnaccess.com",
+        "hostname": "sg.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204837,7 +204824,7 @@
       {
         "vpn": "openvpn",
         "country": "Slovakia",
-        "hostname": "slk.torguardvpnaccess.com",
+        "hostname": "slk.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204852,7 +204839,7 @@
         "vpn": "openvpn",
         "country": "South",
         "city": "Korea",
-        "hostname": "sk.torguardvpnaccess.com",
+        "hostname": "sk.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204866,7 +204853,7 @@
       {
         "vpn": "openvpn",
         "country": "Spain",
-        "hostname": "sp.torguardvpnaccess.com",
+        "hostname": "sp.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204885,7 +204872,7 @@
       {
         "vpn": "openvpn",
         "country": "Sweden",
-        "hostname": "swe.torguardvpnaccess.com",
+        "hostname": "swe.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204916,7 +204903,7 @@
       {
         "vpn": "openvpn",
         "country": "Switzerland",
-        "hostname": "swiss.torguardvpnaccess.com",
+        "hostname": "swiss.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204941,7 +204928,7 @@
       {
         "vpn": "openvpn",
         "country": "Taiwan",
-        "hostname": "tw.torguardvpnaccess.com",
+        "hostname": "tw.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204951,7 +204938,7 @@
       {
         "vpn": "openvpn",
         "country": "Thailand",
-        "hostname": "thai.torguardvpnaccess.com",
+        "hostname": "th.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204965,7 +204952,7 @@
       {
         "vpn": "openvpn",
         "country": "UAE",
-        "hostname": "uae.secureconnect.me",
+        "hostname": "uae.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204978,7 +204965,7 @@
         "vpn": "openvpn",
         "country": "UK",
         "city": "London",
-        "hostname": "uk.torguardvpnaccess.com",
+        "hostname": "uk.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -204999,13 +204986,11 @@
           "146.70.83.242",
           "146.70.83.250",
           "146.70.95.18",
-          "146.70.95.26",
           "146.70.95.34",
           "146.70.95.42",
           "146.70.95.50",
           "146.70.95.58",
           "146.70.95.66",
-          "146.70.95.74",
           "185.253.98.42"
         ]
       },
@@ -205013,7 +204998,7 @@
         "vpn": "openvpn",
         "country": "USA",
         "city": "Atlanta",
-        "hostname": "atl.east.usa.torguardvpnaccess.com",
+        "hostname": "us-atl.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -205033,30 +205018,28 @@
         "vpn": "openvpn",
         "country": "USA",
         "city": "Chicago",
-        "hostname": "chi.central.usa.torguardvpnaccess.com",
+        "hostname": "us-chi-loc2.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
-          "45.128.36.130",
-          "45.128.36.138",
-          "45.128.36.146",
-          "45.128.36.154",
-          "45.128.36.162",
-          "45.128.36.170",
-          "45.128.36.178",
-          "45.128.36.186",
-          "45.128.36.194",
-          "45.128.36.202"
+          "64.44.63.98",
+          "64.44.140.250",
+          "167.88.3.210",
+          "167.88.15.50"
         ]
       },
       {
         "vpn": "openvpn",
         "country": "USA",
         "city": "Dallas",
-        "hostname": "dal.central.usa.torguardvpnaccess.com",
+        "hostname": "us-dal.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
+          "64.44.147.98",
+          "64.44.147.106",
+          "64.44.147.114",
+          "64.44.147.122",
           "146.70.50.2",
           "146.70.50.10",
           "146.70.50.18",
@@ -205088,7 +205071,7 @@
         "vpn": "openvpn",
         "country": "USA",
         "city": "Las Vegas",
-        "hostname": "lv.west.usa.torguardvpnaccess.com",
+        "hostname": "us-lv.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -205114,14 +205097,13 @@
         "vpn": "openvpn",
         "country": "USA",
         "city": "Los Angeles",
-        "hostname": "la.west.usa.torguardvpnaccess.com",
+        "hostname": "us-la.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
           "37.120.147.130",
           "37.120.214.114",
           "37.120.214.122",
-          "91.219.212.10",
           "91.219.212.242",
           "91.219.212.250",
           "139.28.216.74",
@@ -205149,7 +205131,7 @@
         "vpn": "openvpn",
         "country": "USA",
         "city": "Miami",
-        "hostname": "fl.east.usa.torguardvpnaccess.com",
+        "hostname": "us-fl.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -205184,7 +205166,7 @@
         "vpn": "openvpn",
         "country": "USA",
         "city": "New Jersey",
-        "hostname": "nj.east.usa.torguardvpnaccess.com",
+        "hostname": "us-nj.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -205219,7 +205201,7 @@
         "vpn": "openvpn",
         "country": "USA",
         "city": "New York",
-        "hostname": "ny.east.usa.torguardvpnaccess.com",
+        "hostname": "us-ny.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -205233,7 +205215,6 @@
           "67.213.221.10",
           "67.213.221.11",
           "67.213.221.12",
-          "67.213.221.13",
           "67.213.221.14",
           "67.213.221.15",
           "67.213.221.16",
@@ -205241,7 +205222,6 @@
           "67.213.221.18",
           "67.213.221.19",
           "67.213.221.20",
-          "67.213.221.21",
           "67.213.221.22",
           "67.213.221.23",
           "67.213.221.24",
@@ -205254,7 +205234,7 @@
         "vpn": "openvpn",
         "country": "USA",
         "city": "San Francisco",
-        "hostname": "sf.west.usa.torguardvpnaccess.com",
+        "hostname": "us-sf.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
@@ -205279,12 +205259,47 @@
         "vpn": "openvpn",
         "country": "USA",
         "city": "Seattle",
-        "hostname": "sa.west.usa.torguardvpnaccess.com",
+        "hostname": "us-sa.torguard.com",
         "tcp": true,
         "udp": true,
         "ips": [
+          "199.229.250.34",
           "199.229.250.38",
-          "199.229.250.38"
+          "199.229.250.42",
+          "199.229.250.66",
+          "199.229.250.74",
+          "199.229.250.78",
+          "199.229.250.82",
+          "199.229.250.86",
+          "199.229.250.90",
+          "199.229.250.94",
+          "199.229.250.106",
+          "199.229.250.114",
+          "199.229.250.118",
+          "199.229.250.122",
+          "199.229.250.130",
+          "199.229.250.131",
+          "199.229.250.133",
+          "199.229.250.134",
+          "199.229.250.135",
+          "199.229.250.136",
+          "199.229.250.137",
+          "199.229.250.138",
+          "199.229.250.140",
+          "199.229.250.142",
+          "199.229.250.146",
+          "199.229.250.149"
+        ]
+      },
+      {
+        "vpn": "openvpn",
+        "country": "serbia",
+        "hostname": "serbia.torguard.com",
+        "tcp": true,
+        "udp": true,
+        "ips": [
+          "146.70.54.90",
+          "146.70.54.98"
         ]
       }
     ]
