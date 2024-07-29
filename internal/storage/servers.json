@@ -257151,7 +257151,7 @@
   },
   "protonvpn": {
     "version": 4,
-    "timestamp": 1722235021,
+    "timestamp": 1722243699,
     "servers": [
       {
         "vpn": "openvpn",
@@ -257161,6 +257161,7 @@
         "hostname": "al-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257175,6 +257176,7 @@
         "hostname": "al-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257189,6 +257191,7 @@
         "hostname": "dz-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257203,6 +257206,7 @@
         "hostname": "dz-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257217,6 +257221,7 @@
         "hostname": "ao-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257230,6 +257235,7 @@
         "hostname": "node-ar-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.186"
@@ -257242,6 +257248,7 @@
         "hostname": "node-ar-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.105"
@@ -257255,6 +257262,7 @@
         "hostname": "node-ar-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "ips": [
           "66.90.72.170"
@@ -257268,6 +257276,7 @@
         "hostname": "node-ar-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257281,6 +257290,7 @@
         "hostname": "node-au-11.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.192"
@@ -257293,6 +257303,7 @@
         "hostname": "node-au-15.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.211"
@@ -257305,6 +257316,7 @@
         "hostname": "node-au-16.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.212"
@@ -257317,6 +257329,7 @@
         "hostname": "node-au-17.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.252"
@@ -257329,6 +257342,7 @@
         "hostname": "node-au-19.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.253"
@@ -257341,6 +257355,7 @@
         "hostname": "node-au-20.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.60"
@@ -257353,6 +257368,7 @@
         "hostname": "node-au-12.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.199"
@@ -257365,6 +257381,7 @@
         "hostname": "node-au-13.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.205"
@@ -257377,6 +257394,7 @@
         "hostname": "node-au-14.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.206"
@@ -257389,6 +257407,7 @@
         "hostname": "node-au-18.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.207"
@@ -257402,6 +257421,7 @@
         "hostname": "node-au-17.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257416,6 +257436,7 @@
         "hostname": "node-au-15.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257430,6 +257451,7 @@
         "hostname": "node-au-18.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257444,6 +257466,7 @@
         "hostname": "node-au-19.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257458,6 +257481,7 @@
         "hostname": "node-au-16.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257472,6 +257496,7 @@
         "hostname": "node-au-20.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257486,6 +257511,7 @@
         "hostname": "node-au-13.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257500,6 +257526,7 @@
         "hostname": "node-au-11.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257514,6 +257541,7 @@
         "hostname": "node-au-12.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257528,6 +257556,7 @@
         "hostname": "node-au-14.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257541,6 +257570,7 @@
         "hostname": "node-at-05.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.190"
@@ -257553,6 +257583,7 @@
         "hostname": "node-at-06.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.191"
@@ -257565,6 +257596,7 @@
         "hostname": "node-at-07.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.50"
@@ -257578,6 +257610,7 @@
         "hostname": "node-at-07.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257592,6 +257625,7 @@
         "hostname": "node-at-05.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257606,6 +257640,7 @@
         "hostname": "node-at-06.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257620,6 +257655,7 @@
         "hostname": "az-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257634,6 +257670,7 @@
         "hostname": "az-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257648,6 +257685,7 @@
         "hostname": "bd-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257662,6 +257700,7 @@
         "hostname": "by-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257676,6 +257715,7 @@
         "hostname": "by-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257689,6 +257729,7 @@
         "hostname": "node-be-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.227"
@@ -257701,6 +257742,7 @@
         "hostname": "node-be-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.138"
@@ -257713,6 +257755,7 @@
         "hostname": "node-be-05.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.217"
@@ -257726,6 +257769,7 @@
         "hostname": "node-be-05.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257740,6 +257784,7 @@
         "hostname": "node-be-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257754,24 +257799,11 @@
         "hostname": "node-be-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
           "45.128.133.226"
-        ]
-      },
-      {
-        "vpn": "openvpn",
-        "country": "Bhutan",
-        "city": "Thimphu",
-        "server_name": "BT#1",
-        "hostname": "bt-01.protonvpn.net",
-        "tcp": true,
-        "udp": true,
-        "stream": true,
-        "p2p": true,
-        "ips": [
-          "43.239.250.1"
         ]
       },
       {
@@ -257781,6 +257813,7 @@
         "hostname": "node-br-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.177"
@@ -257794,6 +257827,7 @@
         "hostname": "node-br-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257808,6 +257842,7 @@
         "hostname": "node-br-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257822,6 +257857,7 @@
         "hostname": "node-br-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.89"
@@ -257834,6 +257870,7 @@
         "hostname": "node-bg-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.95"
@@ -257847,6 +257884,7 @@
         "hostname": "node-bg-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -257860,6 +257898,7 @@
         "hostname": "node-kh-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.83"
@@ -257873,6 +257912,7 @@
         "hostname": "node-kh-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "p2p": true,
         "ips": [
           "188.215.235.82"
@@ -257885,6 +257925,7 @@
         "hostname": "node-ca-09.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.177"
@@ -257897,6 +257938,7 @@
         "hostname": "node-ca-12.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.188"
@@ -257909,6 +257951,7 @@
         "hostname": "node-ca-13.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.189"
@@ -257921,6 +257964,7 @@
         "hostname": "node-ca-16.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.231"
@@ -257933,6 +257977,7 @@
         "hostname": "node-ca-18.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.230"
@@ -257945,6 +257990,7 @@
         "hostname": "node-ca-20.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.89"
@@ -257957,6 +258003,7 @@
         "hostname": "node-ca-21.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.90"
@@ -257969,6 +258016,7 @@
         "hostname": "node-ca-22.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.88"
@@ -257981,6 +258029,7 @@
         "hostname": "node-ca-23.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.36"
@@ -257993,6 +258042,7 @@
         "hostname": "node-ca-24.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.42"
@@ -258005,6 +258055,7 @@
         "hostname": "node-ca-25.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.54"
@@ -258017,6 +258068,7 @@
         "hostname": "node-ca-26.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.53"
@@ -258029,6 +258081,7 @@
         "hostname": "node-ca-27.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.58"
@@ -258041,6 +258094,7 @@
         "hostname": "node-ca-28.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.59"
@@ -258053,6 +258107,7 @@
         "hostname": "node-ca-29.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.74"
@@ -258065,6 +258120,7 @@
         "hostname": "node-ca-30.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.75"
@@ -258077,6 +258133,7 @@
         "hostname": "node-ca-31.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.76"
@@ -258089,6 +258146,7 @@
         "hostname": "node-ca-32.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.77"
@@ -258101,6 +258159,7 @@
         "hostname": "node-ca-33.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.78"
@@ -258113,6 +258172,7 @@
         "hostname": "node-ca-34.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.88"
@@ -258125,6 +258185,7 @@
         "hostname": "node-ca-36.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.89"
@@ -258137,6 +258198,7 @@
         "hostname": "node-ca-17.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.219"
@@ -258149,6 +258211,7 @@
         "hostname": "node-ca-19.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.218"
@@ -258161,6 +258224,7 @@
         "hostname": "node-ca-35.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.197"
@@ -258174,6 +258238,7 @@
         "hostname": "node-ca-18.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258188,6 +258253,7 @@
         "hostname": "node-ca-19.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258202,6 +258268,7 @@
         "hostname": "node-ca-20.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "ips": [
           "172.98.82.146"
@@ -258215,6 +258282,7 @@
         "hostname": "node-ca-24.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258229,6 +258297,7 @@
         "hostname": "node-ca-27.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258243,6 +258312,7 @@
         "hostname": "node-ca-28.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258257,6 +258327,7 @@
         "hostname": "node-ca-16.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258271,6 +258342,7 @@
         "hostname": "node-ca-17.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258285,6 +258357,7 @@
         "hostname": "node-ca-12.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258299,6 +258372,7 @@
         "hostname": "node-ca-23.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258313,6 +258387,7 @@
         "hostname": "node-ca-25.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258327,6 +258402,7 @@
         "hostname": "node-ca-26.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258341,6 +258417,7 @@
         "hostname": "node-ca-29.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258355,6 +258432,7 @@
         "hostname": "node-ca-30.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258369,6 +258447,7 @@
         "hostname": "node-ca-31.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258383,6 +258462,7 @@
         "hostname": "node-ca-09.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258397,6 +258477,7 @@
         "hostname": "node-ca-13.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258411,6 +258492,7 @@
         "hostname": "node-ca-21.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "ips": [
           "107.181.177.2"
@@ -258424,6 +258506,7 @@
         "hostname": "node-ca-22.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "ips": [
           "107.181.177.11"
@@ -258437,6 +258520,7 @@
         "hostname": "node-ca-32.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258451,6 +258535,7 @@
         "hostname": "node-ca-33.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258465,6 +258550,7 @@
         "hostname": "node-ca-34.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258479,6 +258565,7 @@
         "hostname": "node-ca-35.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258493,6 +258580,7 @@
         "hostname": "node-ca-36.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258507,6 +258595,7 @@
         "hostname": "td-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258521,6 +258610,7 @@
         "hostname": "td-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258534,6 +258624,7 @@
         "hostname": "node-cl-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.208"
@@ -258547,6 +258638,7 @@
         "hostname": "node-cl-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258560,6 +258652,7 @@
         "hostname": "node-co-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.149"
@@ -258572,6 +258665,7 @@
         "hostname": "node-co-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.196"
@@ -258585,6 +258679,7 @@
         "hostname": "node-co-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258599,6 +258694,7 @@
         "hostname": "node-co-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "ips": [
           "66.90.82.26"
@@ -258612,6 +258708,7 @@
         "hostname": "km-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258625,6 +258722,7 @@
         "hostname": "node-cr-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.209"
@@ -258638,6 +258736,7 @@
         "hostname": "node-cr-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258651,6 +258750,7 @@
         "hostname": "node-hr-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.35"
@@ -258663,6 +258763,7 @@
         "hostname": "node-hr-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.35"
@@ -258676,6 +258777,7 @@
         "hostname": "node-hr-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "ips": [
           "178.218.167.210"
         ]
@@ -258688,6 +258790,7 @@
         "hostname": "node-hr-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258701,6 +258804,7 @@
         "hostname": "node-cy-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.165"
@@ -258714,6 +258818,7 @@
         "hostname": "node-cy-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258727,6 +258832,7 @@
         "hostname": "node-cz-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.217"
@@ -258739,6 +258845,7 @@
         "hostname": "node-cz-05.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.225"
@@ -258752,6 +258859,7 @@
         "hostname": "node-cz-05.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258766,6 +258874,7 @@
         "hostname": "node-cz-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258779,6 +258888,7 @@
         "hostname": "node-dk-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.37"
@@ -258791,6 +258901,7 @@
         "hostname": "node-dk-05.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.239"
@@ -258803,6 +258914,7 @@
         "hostname": "node-dk-06.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.238"
@@ -258816,6 +258928,7 @@
         "hostname": "node-dk-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "ips": [
           "193.29.107.242"
@@ -258829,6 +258942,7 @@
         "hostname": "node-dk-05.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258843,6 +258957,7 @@
         "hostname": "node-dk-06.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258856,6 +258971,7 @@
         "hostname": "node-ec-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.202"
@@ -258869,6 +258985,7 @@
         "hostname": "node-ec-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258882,6 +258999,7 @@
         "hostname": "node-eg-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.84"
@@ -258895,6 +259013,7 @@
         "hostname": "node-eg-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "p2p": true,
         "ips": [
           "188.214.122.82"
@@ -258908,6 +259027,7 @@
         "hostname": "eg-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258922,6 +259042,7 @@
         "hostname": "sv-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258935,6 +259056,7 @@
         "hostname": "node-ee-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.106"
@@ -258947,6 +259069,7 @@
         "hostname": "node-ee-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.28"
@@ -258959,6 +259082,7 @@
         "hostname": "node-ee-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.49"
@@ -258972,6 +259096,7 @@
         "hostname": "node-ee-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "ips": [
           "165.231.178.10"
         ]
@@ -258984,6 +259109,7 @@
         "hostname": "node-ee-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -258997,6 +259123,7 @@
         "hostname": "node-fi-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.107"
@@ -259009,6 +259136,7 @@
         "hostname": "node-fi-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.69"
@@ -259021,18 +259149,7 @@
         "hostname": "node-fi-01.protonvpn.net",
         "tcp": true,
         "udp": true,
-        "secure_core": true,
-        "ips": [
-          "185.159.156.27"
-        ]
-      },
-      {
-        "vpn": "openvpn",
-        "country": "Finland",
-        "server_name": "SE-FI#1",
-        "hostname": "node-fi-01.protonvpn.net",
-        "tcp": true,
-        "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.28"
@@ -259042,9 +259159,23 @@
         "vpn": "openvpn",
         "country": "Finland",
         "server_name": "SE-FI#1",
+        "hostname": "node-fi-01.protonvpn.net",
+        "tcp": true,
+        "udp": true,
+        "free": true,
+        "secure_core": true,
+        "ips": [
+          "185.159.156.27"
+        ]
+      },
+      {
+        "vpn": "openvpn",
+        "country": "Finland",
+        "server_name": "SE-FI#1",
         "hostname": "node-fi-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.92"
@@ -259058,6 +259189,7 @@
         "hostname": "node-fi-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "ips": [
           "194.34.132.55"
@@ -259071,6 +259203,7 @@
         "hostname": "node-fi-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259085,6 +259218,7 @@
         "hostname": "node-fi-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "ips": [
           "196.196.203.202"
@@ -259097,6 +259231,7 @@
         "hostname": "node-fr-15.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.219"
@@ -259109,6 +259244,7 @@
         "hostname": "node-fr-16.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.220"
@@ -259121,6 +259257,7 @@
         "hostname": "node-fr-17.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.221"
@@ -259133,6 +259270,7 @@
         "hostname": "node-fr-18.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.222"
@@ -259145,6 +259283,7 @@
         "hostname": "node-fr-19.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.223"
@@ -259157,6 +259296,7 @@
         "hostname": "node-fr-20.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.224"
@@ -259169,6 +259309,7 @@
         "hostname": "node-fr-21.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.225"
@@ -259181,6 +259322,7 @@
         "hostname": "node-fr-22.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.226"
@@ -259193,6 +259335,7 @@
         "hostname": "node-fr-23.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.52"
@@ -259205,6 +259348,7 @@
         "hostname": "node-fr-24.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.51"
@@ -259217,6 +259361,7 @@
         "hostname": "fr-13-tor.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "tor": true,
         "ips": [
           "45.128.134.199"
@@ -259229,6 +259374,7 @@
         "hostname": "node-fr-07.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.68"
@@ -259241,6 +259387,7 @@
         "hostname": "node-fr-13.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.93"
@@ -259253,6 +259400,7 @@
         "hostname": "node-fr-14.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.94"
@@ -259266,6 +259414,7 @@
         "hostname": "node-fr-23.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259280,6 +259429,7 @@
         "hostname": "node-fr-24.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259294,6 +259444,7 @@
         "hostname": "node-fr-17.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259308,6 +259459,7 @@
         "hostname": "node-fr-18.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259322,6 +259474,7 @@
         "hostname": "node-fr-19.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259336,6 +259489,7 @@
         "hostname": "node-fr-20.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259350,6 +259504,7 @@
         "hostname": "node-fr-21.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259364,6 +259519,7 @@
         "hostname": "node-fr-22.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259378,6 +259534,7 @@
         "hostname": "node-fr-07.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259392,6 +259549,7 @@
         "hostname": "node-fr-13.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259406,6 +259564,7 @@
         "hostname": "node-fr-14.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259420,6 +259579,7 @@
         "hostname": "node-fr-15.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259434,6 +259594,7 @@
         "hostname": "node-fr-16.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259447,6 +259608,7 @@
         "hostname": "node-ge-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.182"
@@ -259460,6 +259622,7 @@
         "hostname": "node-ge-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "ips": [
           "138.199.53.236"
         ]
@@ -259471,6 +259634,7 @@
         "hostname": "node-de-16.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.184"
@@ -259483,6 +259647,7 @@
         "hostname": "node-de-17.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.183"
@@ -259495,6 +259660,7 @@
         "hostname": "node-de-18.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.57"
@@ -259507,6 +259673,7 @@
         "hostname": "node-de-19.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.58"
@@ -259519,6 +259686,7 @@
         "hostname": "node-de-20.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.30"
@@ -259531,6 +259699,7 @@
         "hostname": "node-de-21.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.31"
@@ -259543,6 +259712,7 @@
         "hostname": "node-de-22.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.38"
@@ -259555,6 +259725,7 @@
         "hostname": "node-de-23.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.37"
@@ -259567,6 +259738,7 @@
         "hostname": "de-53-tor.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "tor": true,
         "ips": [
           "194.126.177.9"
@@ -259579,6 +259751,7 @@
         "hostname": "node-de-12.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.178"
@@ -259591,6 +259764,7 @@
         "hostname": "node-de-13.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.179"
@@ -259603,6 +259777,7 @@
         "hostname": "node-de-14.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.180"
@@ -259615,6 +259790,7 @@
         "hostname": "node-de-25.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.119"
@@ -259627,6 +259803,7 @@
         "hostname": "node-de-15.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.98"
@@ -259639,6 +259816,7 @@
         "hostname": "node-de-24.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.29"
@@ -259652,6 +259830,7 @@
         "hostname": "node-de-24.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259666,6 +259845,7 @@
         "hostname": "node-de-25.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259680,6 +259860,7 @@
         "hostname": "node-de-15.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259694,6 +259875,7 @@
         "hostname": "node-de-20.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259708,6 +259890,7 @@
         "hostname": "node-de-21.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259722,6 +259905,7 @@
         "hostname": "node-de-18.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259736,6 +259920,7 @@
         "hostname": "node-de-19.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259750,6 +259935,7 @@
         "hostname": "node-de-22.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259764,6 +259950,7 @@
         "hostname": "node-de-23.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259778,6 +259965,7 @@
         "hostname": "node-de-12.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259792,6 +259980,7 @@
         "hostname": "node-de-13.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259806,6 +259995,7 @@
         "hostname": "node-de-17.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259820,6 +260010,7 @@
         "hostname": "node-de-16.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259834,6 +260025,7 @@
         "hostname": "node-de-14.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259847,6 +260039,7 @@
         "hostname": "node-gr-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.65"
@@ -259860,6 +260053,7 @@
         "hostname": "node-gr-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "p2p": true,
         "ips": [
           "185.51.134.194"
@@ -259872,6 +260066,7 @@
         "hostname": "node-hk-06.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.232"
@@ -259884,6 +260079,7 @@
         "hostname": "node-hk-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.195"
@@ -259896,6 +260092,7 @@
         "hostname": "node-hk-05.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.220"
@@ -259909,6 +260106,7 @@
         "hostname": "hk-27-tor.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "tor": true,
         "ips": [
           "156.146.45.139"
@@ -259922,6 +260120,7 @@
         "hostname": "node-hk-05.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259936,6 +260135,7 @@
         "hostname": "node-hk-06.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259950,6 +260150,7 @@
         "hostname": "node-hk-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -259963,6 +260164,7 @@
         "hostname": "node-hu-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.242"
@@ -259975,6 +260177,7 @@
         "hostname": "node-hu-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.241"
@@ -259988,6 +260191,7 @@
         "hostname": "node-hu-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260002,6 +260206,7 @@
         "hostname": "node-hu-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260015,6 +260220,7 @@
         "hostname": "is-09-tor.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "tor": true,
         "ips": [
           "185.159.158.193"
@@ -260028,6 +260234,7 @@
         "hostname": "node-is-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260042,6 +260249,7 @@
         "hostname": "node-is-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260055,6 +260263,7 @@
         "hostname": "node-in-05.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.82"
@@ -260067,6 +260276,7 @@
         "hostname": "node-in-06.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.56"
@@ -260079,6 +260289,7 @@
         "hostname": "node-in-06.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.234"
@@ -260091,6 +260302,7 @@
         "hostname": "node-in-05.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.128"
@@ -260104,6 +260316,7 @@
         "hostname": "node-in-06.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260118,6 +260331,7 @@
         "hostname": "node-in-05.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260131,6 +260345,7 @@
         "hostname": "node-id-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.84"
@@ -260144,6 +260359,7 @@
         "hostname": "node-id-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "p2p": true,
         "ips": [
           "138.199.60.86"
@@ -260156,6 +260372,7 @@
         "hostname": "node-ie-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.153"
@@ -260168,6 +260385,7 @@
         "hostname": "node-ie-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.118"
@@ -260180,6 +260398,7 @@
         "hostname": "node-ie-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.120"
@@ -260192,6 +260411,7 @@
         "hostname": "node-ie-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.221"
@@ -260205,6 +260425,7 @@
         "hostname": "node-ie-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "ips": [
           "5.157.13.2"
         ]
@@ -260217,6 +260438,7 @@
         "hostname": "node-ie-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260230,6 +260452,7 @@
         "hostname": "node-il-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.194"
@@ -260242,6 +260465,7 @@
         "hostname": "node-il-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.124"
@@ -260255,6 +260479,7 @@
         "hostname": "node-il-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "ips": [
           "185.185.134.146"
         ]
@@ -260267,6 +260492,7 @@
         "hostname": "node-il-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "p2p": true,
         "ips": [
           "169.150.226.161"
@@ -260279,6 +260505,7 @@
         "hostname": "node-it-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.237"
@@ -260291,6 +260518,7 @@
         "hostname": "node-it-05.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.235"
@@ -260303,6 +260531,7 @@
         "hostname": "node-it-06.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.234"
@@ -260315,6 +260544,7 @@
         "hostname": "node-it-07.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.33"
@@ -260328,6 +260558,7 @@
         "hostname": "node-it-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260342,6 +260573,7 @@
         "hostname": "node-it-05.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260356,6 +260588,7 @@
         "hostname": "node-it-06.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260370,6 +260603,7 @@
         "hostname": "node-it-07.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260383,6 +260617,7 @@
         "hostname": "node-jp-12.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.80"
@@ -260395,6 +260630,7 @@
         "hostname": "node-jp-29.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.208"
@@ -260407,6 +260643,7 @@
         "hostname": "node-jp-30.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.40"
@@ -260419,6 +260656,7 @@
         "hostname": "node-jp-12.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.37"
@@ -260431,6 +260669,7 @@
         "hostname": "node-jp-14.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.56"
@@ -260444,6 +260683,7 @@
         "hostname": "node-jp-14.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260471,6 +260711,7 @@
         "hostname": "node-jp-29.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260485,6 +260726,7 @@
         "hostname": "node-jp-30.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260499,6 +260741,7 @@
         "hostname": "node-jp-12.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260513,6 +260756,7 @@
         "hostname": "node-jp-17.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260527,6 +260771,7 @@
         "hostname": "jo-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260541,6 +260786,7 @@
         "hostname": "kz-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260555,6 +260801,7 @@
         "hostname": "ke-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260568,6 +260815,7 @@
         "hostname": "node-kr-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.87"
@@ -260581,6 +260829,7 @@
         "hostname": "node-kr-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260594,6 +260843,7 @@
         "hostname": "node-lv-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.61"
@@ -260606,6 +260856,7 @@
         "hostname": "node-lv-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.81"
@@ -260618,6 +260869,7 @@
         "hostname": "node-lv-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.27"
@@ -260631,6 +260883,7 @@
         "hostname": "node-lv-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "ips": [
           "196.240.54.114"
         ]
@@ -260643,6 +260896,7 @@
         "hostname": "node-lv-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "p2p": true,
         "ips": [
           "85.203.39.226"
@@ -260655,6 +260909,7 @@
         "hostname": "node-lt-01b.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.20"
@@ -260667,6 +260922,7 @@
         "hostname": "node-lt-01b.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.110"
@@ -260679,6 +260935,7 @@
         "hostname": "node-lt-01b.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.43"
@@ -260692,6 +260949,7 @@
         "hostname": "node-lt-01b.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260705,6 +260963,7 @@
         "hostname": "node-lu-02b.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.66"
@@ -260717,6 +260976,7 @@
         "hostname": "node-lu-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.48"
@@ -260729,6 +260989,7 @@
         "hostname": "node-lu-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.147"
@@ -260742,6 +261003,7 @@
         "hostname": "node-lu-02b.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "ips": [
           "92.223.89.141"
         ]
@@ -260754,6 +261016,7 @@
         "hostname": "node-lu-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "ips": [
           "92.223.89.133"
         ]
@@ -260766,6 +261029,7 @@
         "hostname": "node-lu-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260779,6 +261043,7 @@
         "hostname": "node-mk-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.150"
@@ -260792,6 +261057,7 @@
         "hostname": "node-mk-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260805,6 +261071,7 @@
         "hostname": "node-my-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.95"
@@ -260818,6 +261085,7 @@
         "hostname": "node-my-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "ips": [
           "103.230.142.226"
@@ -260831,6 +261099,7 @@
         "hostname": "my-09.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260844,6 +261113,7 @@
         "hostname": "node-mt-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.204"
@@ -260857,6 +261127,7 @@
         "hostname": "node-mt-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "p2p": true,
         "ips": [
           "178.249.212.161"
@@ -260870,6 +261141,7 @@
         "hostname": "mr-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260884,6 +261156,7 @@
         "hostname": "mr-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260898,6 +261171,7 @@
         "hostname": "mu-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260911,6 +261185,7 @@
         "hostname": "node-mx-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.218"
@@ -260924,6 +261199,7 @@
         "hostname": "node-mx-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260938,6 +261214,7 @@
         "hostname": "mx-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260951,6 +261228,7 @@
         "hostname": "node-md-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.111"
@@ -260964,6 +261242,7 @@
         "hostname": "node-md-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "ips": [
           "185.163.44.137"
         ]
@@ -260976,6 +261255,7 @@
         "hostname": "me-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -260989,6 +261269,7 @@
         "hostname": "node-ma-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.32"
@@ -261002,6 +261283,7 @@
         "hostname": "node-ma-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261016,6 +261298,7 @@
         "hostname": "mz-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261030,6 +261313,7 @@
         "hostname": "mz-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261043,6 +261327,7 @@
         "hostname": "node-mm-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.210"
@@ -261056,6 +261341,7 @@
         "hostname": "node-mm-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "ips": [
           "138.199.60.87"
         ]
@@ -261068,6 +261354,7 @@
         "hostname": "np-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261081,6 +261368,7 @@
         "hostname": "node-nl-165.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.197"
@@ -261093,6 +261381,7 @@
         "hostname": "node-nl-166.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.198"
@@ -261105,6 +261394,7 @@
         "hostname": "node-nl-167.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.199"
@@ -261117,6 +261407,7 @@
         "hostname": "node-nl-168.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.91"
@@ -261129,6 +261420,7 @@
         "hostname": "node-nl-204.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.236"
@@ -261141,6 +261433,7 @@
         "hostname": "node-nl-206.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.101"
@@ -261153,6 +261446,7 @@
         "hostname": "node-nl-207.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.100"
@@ -261165,6 +261459,7 @@
         "hostname": "node-nl-208.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.98"
@@ -261177,6 +261472,7 @@
         "hostname": "node-nl-209.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.96"
@@ -261189,6 +261485,7 @@
         "hostname": "node-nl-211.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.103"
@@ -261201,6 +261498,7 @@
         "hostname": "node-nl-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.55"
@@ -261213,6 +261511,7 @@
         "hostname": "node-nl-28.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.72"
@@ -261225,6 +261524,7 @@
         "hostname": "node-nl-29.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.73"
@@ -261237,6 +261537,7 @@
         "hostname": "node-nl-30.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.74"
@@ -261249,6 +261550,7 @@
         "hostname": "node-nl-53.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.91"
@@ -261262,6 +261564,7 @@
         "hostname": "node-nl-30.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261276,6 +261579,7 @@
         "hostname": "node-nl-53.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261290,6 +261594,7 @@
         "hostname": "node-nl-204.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261304,6 +261609,7 @@
         "hostname": "node-nl-206.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261318,6 +261624,7 @@
         "hostname": "node-nl-207.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261332,6 +261639,7 @@
         "hostname": "node-nl-208.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261346,6 +261654,7 @@
         "hostname": "node-nl-209.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261360,6 +261669,7 @@
         "hostname": "node-nl-211.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261374,6 +261684,7 @@
         "hostname": "node-nl-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261388,6 +261699,7 @@
         "hostname": "node-nl-13.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261402,6 +261714,7 @@
         "hostname": "node-nl-28.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261416,6 +261729,7 @@
         "hostname": "node-nl-29.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261430,6 +261744,7 @@
         "hostname": "node-nl-165.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261444,6 +261759,7 @@
         "hostname": "node-nl-166.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261458,6 +261774,7 @@
         "hostname": "node-nl-167.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261472,6 +261789,7 @@
         "hostname": "node-nl-168.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261486,6 +261804,7 @@
         "hostname": "node-nl-47.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261564,6 +261883,7 @@
         "hostname": "node-nz-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.97"
@@ -261576,6 +261896,7 @@
         "hostname": "node-nz-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.213"
@@ -261589,6 +261910,7 @@
         "hostname": "node-nz-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "ips": [
           "116.90.74.178"
         ]
@@ -261601,6 +261923,7 @@
         "hostname": "node-nz-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261614,6 +261937,7 @@
         "hostname": "node-es-07.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.88"
@@ -261627,6 +261951,7 @@
         "hostname": "node-es-07.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "ips": [
           "185.76.11.27"
         ]
@@ -261638,6 +261963,7 @@
         "hostname": "node-no-05.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.245"
@@ -261650,6 +261976,7 @@
         "hostname": "node-no-06.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.240"
@@ -261662,6 +261989,7 @@
         "hostname": "node-no-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.145"
@@ -261675,6 +262003,7 @@
         "hostname": "node-no-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "ips": [
           "84.247.50.178"
@@ -261688,6 +262017,7 @@
         "hostname": "node-no-05.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "ips": [
           "146.70.170.18"
@@ -261701,6 +262031,7 @@
         "hostname": "node-no-06.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "ips": [
           "146.70.170.2"
@@ -261713,6 +262044,7 @@
         "hostname": "node-pk-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.26"
@@ -261726,6 +262058,7 @@
         "hostname": "node-pk-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261739,6 +262072,7 @@
         "hostname": "node-pe-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.209"
@@ -261752,6 +262086,7 @@
         "hostname": "node-pe-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261765,6 +262100,7 @@
         "hostname": "node-ph-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.86"
@@ -261778,6 +262114,7 @@
         "hostname": "node-ph-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261791,6 +262128,7 @@
         "hostname": "node-pl-05.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.214"
@@ -261803,6 +262141,7 @@
         "hostname": "node-pl-06.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.243"
@@ -261815,6 +262154,7 @@
         "hostname": "node-pl-07.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.224"
@@ -261828,6 +262168,7 @@
         "hostname": "node-pl-05.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261842,6 +262183,7 @@
         "hostname": "node-pl-06.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261856,6 +262198,7 @@
         "hostname": "node-pl-07.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261869,6 +262212,7 @@
         "hostname": "node-pt-02b.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.113"
@@ -261881,6 +262225,7 @@
         "hostname": "node-pt-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.39"
@@ -261893,6 +262238,7 @@
         "hostname": "node-pt-02b.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.58"
@@ -261906,6 +262252,7 @@
         "hostname": "node-pt-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261920,6 +262267,7 @@
         "hostname": "node-pt-02b.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261933,6 +262281,7 @@
         "hostname": "node-pr-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.181"
@@ -261946,6 +262295,7 @@
         "hostname": "node-pr-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "p2p": true,
         "ips": [
           "138.199.50.97"
@@ -261959,6 +262309,7 @@
         "hostname": "qa-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261973,6 +262324,7 @@
         "hostname": "qa-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -261986,6 +262338,7 @@
         "hostname": "node-ro-08.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.49"
@@ -261998,6 +262351,7 @@
         "hostname": "node-ro-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.81"
@@ -262011,6 +262365,7 @@
         "hostname": "node-ro-08.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262025,6 +262380,7 @@
         "hostname": "node-ro-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262038,6 +262394,7 @@
         "hostname": "node-ru-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.25"
@@ -262050,6 +262407,7 @@
         "hostname": "node-ru-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.233"
@@ -262062,6 +262420,7 @@
         "hostname": "node-ru-05.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.127"
@@ -262075,6 +262434,7 @@
         "hostname": "node-ru-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "ips": [
           "176.96.226.226"
         ]
@@ -262087,6 +262447,7 @@
         "hostname": "node-ru-05.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "ips": [
           "176.96.226.242"
         ]
@@ -262099,6 +262460,7 @@
         "hostname": "rw-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262113,6 +262475,7 @@
         "hostname": "rw-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262127,6 +262490,7 @@
         "hostname": "sn-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262141,6 +262505,7 @@
         "hostname": "sn-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262154,6 +262519,7 @@
         "hostname": "node-rs-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.27"
@@ -262166,6 +262532,7 @@
         "hostname": "node-rs-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.34"
@@ -262179,6 +262546,7 @@
         "hostname": "node-rs-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "ips": [
           "37.46.115.5"
         ]
@@ -262191,6 +262559,7 @@
         "hostname": "node-rs-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262204,6 +262573,7 @@
         "hostname": "node-sg-14.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.187"
@@ -262216,6 +262586,7 @@
         "hostname": "node-sg-15.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.21"
@@ -262228,6 +262599,7 @@
         "hostname": "node-sg-16.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.41"
@@ -262240,6 +262612,7 @@
         "hostname": "node-sg-15.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.126"
@@ -262253,6 +262626,7 @@
         "hostname": "node-sg-14.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262267,6 +262641,7 @@
         "hostname": "node-sg-15.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262281,6 +262656,7 @@
         "hostname": "node-sg-16.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262294,9 +262670,10 @@
         "hostname": "node-sk-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
-          "185.159.157.62"
+          "185.159.157.85"
         ]
       },
       {
@@ -262306,9 +262683,10 @@
         "hostname": "node-sk-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
-          "185.159.157.85"
+          "185.159.157.62"
         ]
       },
       {
@@ -262319,6 +262697,7 @@
         "hostname": "node-sk-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "ips": [
           "196.245.151.210"
@@ -262331,6 +262710,7 @@
         "hostname": "node-si-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.93"
@@ -262344,6 +262724,7 @@
         "hostname": "node-si-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "p2p": true,
         "ips": [
           "195.80.150.226"
@@ -262357,6 +262738,7 @@
         "hostname": "so-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262370,6 +262752,7 @@
         "hostname": "node-za-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.24"
@@ -262382,6 +262765,7 @@
         "hostname": "node-za-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.184"
@@ -262395,6 +262779,7 @@
         "hostname": "node-za-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "ips": [
           "196.240.128.66"
         ]
@@ -262407,6 +262792,7 @@
         "hostname": "node-za-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "p2p": true,
         "ips": [
           "178.249.212.163"
@@ -262420,6 +262806,7 @@
         "hostname": "ss-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262434,6 +262821,7 @@
         "hostname": "ss-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262447,6 +262835,7 @@
         "hostname": "node-es-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.43"
@@ -262459,6 +262848,7 @@
         "hostname": "node-es-08.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.85"
@@ -262471,6 +262861,7 @@
         "hostname": "node-es-09.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.86"
@@ -262483,6 +262874,7 @@
         "hostname": "node-es-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.148"
@@ -262495,6 +262887,7 @@
         "hostname": "node-es-05.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.149"
@@ -262508,6 +262901,7 @@
         "hostname": "node-es-08.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262522,6 +262916,7 @@
         "hostname": "node-es-09.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262536,6 +262931,7 @@
         "hostname": "node-es-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262550,6 +262946,7 @@
         "hostname": "node-es-05.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262564,6 +262961,7 @@
         "hostname": "node-es-06.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262578,6 +262976,7 @@
         "hostname": "node-es-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262592,6 +262991,7 @@
         "hostname": "lk-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262605,6 +263005,7 @@
         "hostname": "se-09-tor.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "tor": true,
         "ips": [
           "185.159.156.90"
@@ -262618,6 +263019,7 @@
         "hostname": "node-se-05.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262632,6 +263034,7 @@
         "hostname": "node-se-06.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262646,6 +263049,7 @@
         "hostname": "node-se-07.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262660,6 +263064,7 @@
         "hostname": "node-se-08.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262674,6 +263079,7 @@
         "hostname": "node-se-09.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262688,6 +263094,7 @@
         "hostname": "node-se-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262702,6 +263109,7 @@
         "hostname": "node-se-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262715,6 +263123,7 @@
         "hostname": "ch-09-tor.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "tor": true,
         "ips": [
           "185.159.157.176"
@@ -262728,6 +263137,7 @@
         "hostname": "node-ch-19.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262742,6 +263152,7 @@
         "hostname": "node-ch-20.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262756,6 +263167,7 @@
         "hostname": "node-ch-21.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262770,6 +263182,7 @@
         "hostname": "node-ch-22.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262784,6 +263197,7 @@
         "hostname": "node-ch-23.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262798,6 +263212,7 @@
         "hostname": "node-ch-18.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262812,6 +263227,7 @@
         "hostname": "node-ch-17.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262826,6 +263242,7 @@
         "hostname": "node-ch-16.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262840,6 +263257,7 @@
         "hostname": "node-ch-12.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262854,6 +263272,7 @@
         "hostname": "node-ch-09.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262868,6 +263287,7 @@
         "hostname": "node-ch-10.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262882,6 +263302,7 @@
         "hostname": "node-ch-11.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262896,6 +263317,7 @@
         "hostname": "node-ch-08.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262910,6 +263332,7 @@
         "hostname": "node-ch-07.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262924,6 +263347,7 @@
         "hostname": "node-ch-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262938,6 +263362,7 @@
         "hostname": "node-ch-13.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262952,6 +263377,7 @@
         "hostname": "node-ch-14.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262966,6 +263392,7 @@
         "hostname": "node-ch-06.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262980,6 +263407,7 @@
         "hostname": "node-ch-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -262994,6 +263422,7 @@
         "hostname": "node-ch-15.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -263008,6 +263437,7 @@
         "hostname": "sy-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -263021,6 +263451,7 @@
         "hostname": "node-tw-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.141"
@@ -263033,6 +263464,7 @@
         "hostname": "node-tw-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.82"
@@ -263046,6 +263478,7 @@
         "hostname": "node-tw-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "p2p": true,
         "ips": [
           "2.58.241.66"
@@ -263059,6 +263492,7 @@
         "hostname": "node-tw-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "p2p": true,
         "ips": [
           "188.214.106.178"
@@ -263071,6 +263505,7 @@
         "hostname": "node-th-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.191"
@@ -263084,6 +263519,7 @@
         "hostname": "node-th-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "p2p": true,
         "ips": [
           "37.19.201.129"
@@ -263097,6 +263533,7 @@
         "hostname": "tg-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -263111,6 +263548,7 @@
         "hostname": "tg-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -263125,6 +263563,7 @@
         "hostname": "tn-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -263138,6 +263577,7 @@
         "hostname": "node-tr-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.97"
@@ -263151,6 +263591,7 @@
         "hostname": "node-tr-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -263165,6 +263606,7 @@
         "hostname": "tr-25.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -263178,6 +263620,7 @@
         "hostname": "node-ua-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.60"
@@ -263190,6 +263633,7 @@
         "hostname": "node-ua-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.45"
@@ -263203,6 +263647,7 @@
         "hostname": "node-ua-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -263217,6 +263662,7 @@
         "hostname": "node-ua-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -263230,6 +263676,7 @@
         "hostname": "node-ae-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.104"
@@ -263242,6 +263689,7 @@
         "hostname": "node-ae-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.232"
@@ -263254,6 +263702,7 @@
         "hostname": "node-ae-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.119"
@@ -263267,6 +263716,7 @@
         "hostname": "node-ae-04.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "p2p": true,
         "ips": [
           "178.249.212.162"
@@ -263280,6 +263730,7 @@
         "hostname": "node-ae-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "ips": [
           "217.138.193.98"
         ]
@@ -263291,6 +263742,7 @@
         "hostname": "node-uk-17.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.228"
@@ -263303,6 +263755,7 @@
         "hostname": "node-uk-18.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.229"
@@ -263315,6 +263768,7 @@
         "hostname": "node-uk-20.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.133"
@@ -263327,6 +263781,7 @@
         "hostname": "node-uk-21.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.43"
@@ -263339,6 +263794,7 @@
         "hostname": "node-uk-22.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.44"
@@ -263351,6 +263807,7 @@
         "hostname": "node-uk-23.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.87"
@@ -263363,6 +263820,7 @@
         "hostname": "node-uk-24.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.90"
@@ -263375,6 +263833,7 @@
         "hostname": "node-uk-25.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.91"
@@ -263387,6 +263846,7 @@
         "hostname": "node-uk-12.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.187"
@@ -263399,6 +263859,7 @@
         "hostname": "node-uk-14.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.200"
@@ -263411,6 +263872,7 @@
         "hostname": "node-uk-15.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.215"
@@ -263423,6 +263885,7 @@
         "hostname": "node-uk-16.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.216"
@@ -263435,6 +263898,7 @@
         "hostname": "node-uk-19.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.223"
@@ -263448,6 +263912,7 @@
         "hostname": "node-uk-09.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.122"
@@ -263461,6 +263926,7 @@
         "hostname": "node-uk-10.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.123"
@@ -263474,6 +263940,7 @@
         "hostname": "node-uk-13.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.99"
@@ -263487,6 +263954,7 @@
         "hostname": "node-uk-19.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -263501,6 +263969,7 @@
         "hostname": "node-uk-21.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -263515,6 +263984,7 @@
         "hostname": "node-uk-22.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -263529,6 +263999,7 @@
         "hostname": "node-uk-09.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -263543,6 +264014,7 @@
         "hostname": "node-uk-10.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -263557,6 +264029,7 @@
         "hostname": "node-uk-12.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -263571,6 +264044,7 @@
         "hostname": "node-uk-23.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -263585,6 +264059,7 @@
         "hostname": "node-uk-13.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -263599,6 +264074,7 @@
         "hostname": "node-uk-15.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -263613,6 +264089,7 @@
         "hostname": "node-uk-18.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -263627,6 +264104,7 @@
         "hostname": "node-uk-16.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -263641,6 +264119,7 @@
         "hostname": "node-uk-17.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -263655,6 +264134,7 @@
         "hostname": "node-uk-24.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -263669,6 +264149,7 @@
         "hostname": "node-uk-25.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -263683,6 +264164,7 @@
         "hostname": "node-uk-20.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -263697,6 +264179,7 @@
         "hostname": "node-uk-14.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -263710,6 +264193,7 @@
         "hostname": "node-us-118.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.169"
@@ -263722,6 +264206,7 @@
         "hostname": "node-us-120.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.170"
@@ -263734,6 +264219,7 @@
         "hostname": "node-us-121.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.171"
@@ -263746,6 +264232,7 @@
         "hostname": "node-us-123.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.172"
@@ -263758,6 +264245,7 @@
         "hostname": "node-us-125.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.173"
@@ -263770,6 +264258,7 @@
         "hostname": "node-us-127.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.174"
@@ -263782,6 +264271,7 @@
         "hostname": "node-us-129.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.175"
@@ -263794,6 +264284,7 @@
         "hostname": "node-us-158.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.194"
@@ -263806,6 +264297,7 @@
         "hostname": "node-us-160.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.195"
@@ -263818,6 +264310,7 @@
         "hostname": "node-us-177.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.216"
@@ -263830,6 +264323,7 @@
         "hostname": "node-us-178.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.215"
@@ -263842,6 +264336,7 @@
         "hostname": "node-us-187.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.250"
@@ -263854,6 +264349,7 @@
         "hostname": "node-us-189.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.249"
@@ -263866,6 +264362,7 @@
         "hostname": "node-us-200.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.233"
@@ -263878,6 +264375,7 @@
         "hostname": "node-us-204.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.246"
@@ -263890,6 +264388,7 @@
         "hostname": "node-us-205.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.247"
@@ -263902,6 +264401,7 @@
         "hostname": "node-us-206.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.248"
@@ -263914,6 +264414,7 @@
         "hostname": "node-us-216.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.130"
@@ -263926,6 +264427,7 @@
         "hostname": "node-us-217.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.131"
@@ -263938,6 +264440,7 @@
         "hostname": "node-us-219.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.147"
@@ -263950,6 +264453,7 @@
         "hostname": "node-us-223.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.254"
@@ -263962,6 +264466,7 @@
         "hostname": "node-us-224.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.70"
@@ -263974,6 +264479,7 @@
         "hostname": "node-us-225.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.71"
@@ -263986,6 +264492,7 @@
         "hostname": "node-us-228.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.23"
@@ -263998,6 +264505,7 @@
         "hostname": "node-us-229.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.22"
@@ -264010,6 +264518,7 @@
         "hostname": "node-us-238.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.56"
@@ -264022,6 +264531,7 @@
         "hostname": "node-us-239.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.55"
@@ -264034,6 +264544,7 @@
         "hostname": "node-us-240.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.47"
@@ -264046,6 +264557,7 @@
         "hostname": "node-us-241.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.46"
@@ -264058,6 +264570,7 @@
         "hostname": "node-us-242.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.63"
@@ -264070,6 +264583,7 @@
         "hostname": "node-us-243.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.64"
@@ -264082,6 +264596,7 @@
         "hostname": "node-us-244.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.65"
@@ -264094,6 +264609,7 @@
         "hostname": "node-us-245.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.62"
@@ -264106,6 +264622,7 @@
         "hostname": "node-us-246.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.61"
@@ -264118,6 +264635,7 @@
         "hostname": "node-us-249.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.66"
@@ -264130,6 +264648,7 @@
         "hostname": "node-us-250.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.70"
@@ -264142,6 +264661,7 @@
         "hostname": "node-us-251.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.71"
@@ -264154,6 +264674,7 @@
         "hostname": "node-us-252.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.72"
@@ -264166,6 +264687,7 @@
         "hostname": "node-us-253.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.73"
@@ -264178,6 +264700,7 @@
         "hostname": "node-us-256.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.81"
@@ -264190,6 +264713,7 @@
         "hostname": "node-us-257.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.82"
@@ -264202,6 +264726,7 @@
         "hostname": "node-us-260.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.84"
@@ -264214,6 +264739,7 @@
         "hostname": "node-us-261.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "79.135.104.83"
@@ -264226,6 +264752,7 @@
         "hostname": "node-us-57.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.92"
@@ -264238,6 +264765,7 @@
         "hostname": "node-us-93.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.142"
@@ -264250,6 +264778,7 @@
         "hostname": "node-us-94.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.157.143"
@@ -264262,6 +264791,7 @@
         "hostname": "node-us-108.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.150"
@@ -264271,9 +264801,23 @@
         "vpn": "openvpn",
         "country": "United States",
         "server_name": "IS-US#1",
+        "hostname": "node-us-109.protonvpn.net",
+        "tcp": true,
+        "udp": true,
+        "free": true,
+        "secure_core": true,
+        "ips": [
+          "185.159.158.151"
+        ]
+      },
+      {
+        "vpn": "openvpn",
+        "country": "United States",
+        "server_name": "IS-US#1",
         "hostname": "node-us-119.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.186"
@@ -264286,6 +264830,7 @@
         "hostname": "node-us-122.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.188"
@@ -264298,6 +264843,7 @@
         "hostname": "node-us-124.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.189"
@@ -264310,6 +264856,7 @@
         "hostname": "node-us-126.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.190"
@@ -264322,6 +264869,7 @@
         "hostname": "node-us-130.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.192"
@@ -264334,6 +264882,7 @@
         "hostname": "node-us-144.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.185"
@@ -264346,6 +264895,7 @@
         "hostname": "node-us-176.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.210"
@@ -264358,6 +264908,7 @@
         "hostname": "node-us-182.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.214"
@@ -264370,6 +264921,7 @@
         "hostname": "node-us-183.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.213"
@@ -264382,6 +264934,7 @@
         "hostname": "node-us-185.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.212"
@@ -264394,6 +264947,7 @@
         "hostname": "node-us-188.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.227"
@@ -264406,6 +264960,7 @@
         "hostname": "node-us-197.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.228"
@@ -264418,6 +264973,7 @@
         "hostname": "node-us-199.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.222"
@@ -264430,6 +264986,7 @@
         "hostname": "node-us-201.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.226"
@@ -264442,6 +264999,7 @@
         "hostname": "node-us-207.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.229"
@@ -264454,6 +265012,7 @@
         "hostname": "node-us-208.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.230"
@@ -264466,6 +265025,7 @@
         "hostname": "node-us-222.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.231"
@@ -264478,6 +265038,7 @@
         "hostname": "node-us-237.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.146"
@@ -264490,6 +265051,7 @@
         "hostname": "node-us-258.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.235"
@@ -264502,6 +265064,7 @@
         "hostname": "node-us-259.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.158.236"
@@ -264514,6 +265077,7 @@
         "hostname": "node-us-226.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.121"
@@ -264526,6 +265090,7 @@
         "hostname": "us-co-21-tor.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "tor": true,
         "ips": [
           "84.17.63.17"
@@ -264538,6 +265103,7 @@
         "hostname": "us-ga-29-tor.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "tor": true,
         "ips": [
           "89.187.171.248"
@@ -264551,6 +265117,7 @@
         "hostname": "node-us-119.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264565,6 +265132,7 @@
         "hostname": "node-us-207.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264579,6 +265147,7 @@
         "hostname": "node-us-219.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264593,6 +265162,7 @@
         "hostname": "node-us-224.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264607,6 +265177,7 @@
         "hostname": "node-us-254.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264634,6 +265205,7 @@
         "hostname": "node-us-247.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264648,6 +265220,7 @@
         "hostname": "node-us-248.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264662,6 +265235,7 @@
         "hostname": "node-us-249.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264676,6 +265250,7 @@
         "hostname": "node-us-69.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264690,6 +265265,7 @@
         "hostname": "node-us-59.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264704,6 +265280,7 @@
         "hostname": "node-us-121.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264718,6 +265295,7 @@
         "hostname": "node-us-225.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264732,6 +265310,7 @@
         "hostname": "node-us-220.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264746,6 +265325,7 @@
         "hostname": "node-us-240.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264760,6 +265340,7 @@
         "hostname": "node-us-241.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264774,6 +265355,7 @@
         "hostname": "node-us-204.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264788,6 +265370,7 @@
         "hostname": "node-us-206.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264802,6 +265385,7 @@
         "hostname": "node-us-130.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264816,6 +265400,7 @@
         "hostname": "node-us-135.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264830,6 +265415,7 @@
         "hostname": "node-us-205.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264844,6 +265430,7 @@
         "hostname": "node-us-129.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264858,6 +265445,7 @@
         "hostname": "node-us-239.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264872,6 +265460,7 @@
         "hostname": "node-us-108.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264886,6 +265475,7 @@
         "hostname": "node-us-75.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264896,10 +265486,26 @@
         "vpn": "openvpn",
         "country": "United States",
         "city": "Dallas",
+        "server_name": "US-TX#161",
+        "hostname": "node-us-109.protonvpn.net",
+        "tcp": true,
+        "udp": true,
+        "free": true,
+        "stream": true,
+        "p2p": true,
+        "ips": [
+          "89.187.164.246"
+        ]
+      },
+      {
+        "vpn": "openvpn",
+        "country": "United States",
+        "city": "Dallas",
         "server_name": "US-TX#175",
         "hostname": "node-us-203.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264914,6 +265520,7 @@
         "hostname": "node-us-57.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264928,6 +265535,7 @@
         "hostname": "node-us-222.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264942,6 +265550,7 @@
         "hostname": "node-us-125.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264956,6 +265565,7 @@
         "hostname": "node-us-238.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264970,6 +265580,7 @@
         "hostname": "node-us-93.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264984,6 +265595,7 @@
         "hostname": "node-us-94.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -264998,6 +265610,7 @@
         "hostname": "node-us-74.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265012,6 +265625,7 @@
         "hostname": "node-us-58.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265026,6 +265640,7 @@
         "hostname": "node-us-164.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265040,6 +265655,7 @@
         "hostname": "node-us-165.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265054,6 +265670,7 @@
         "hostname": "node-us-166.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265068,6 +265685,7 @@
         "hostname": "node-us-167.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265082,6 +265700,7 @@
         "hostname": "node-us-168.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265096,6 +265715,7 @@
         "hostname": "node-us-169.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265110,6 +265730,7 @@
         "hostname": "node-us-171.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265124,6 +265745,7 @@
         "hostname": "node-us-172.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265138,6 +265760,7 @@
         "hostname": "node-us-173.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265152,6 +265775,7 @@
         "hostname": "node-us-174.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265166,6 +265790,7 @@
         "hostname": "node-us-209.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265180,6 +265805,7 @@
         "hostname": "node-us-210.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265194,6 +265820,7 @@
         "hostname": "node-us-211.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265208,6 +265835,7 @@
         "hostname": "node-us-212.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265222,6 +265850,7 @@
         "hostname": "node-us-242.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265236,6 +265865,7 @@
         "hostname": "node-us-243.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265250,6 +265880,7 @@
         "hostname": "node-us-244.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265264,6 +265895,7 @@
         "hostname": "node-us-253.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265278,6 +265910,7 @@
         "hostname": "node-us-66.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265292,6 +265925,7 @@
         "hostname": "node-us-122.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265319,6 +265953,7 @@
         "hostname": "node-us-229.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265333,6 +265968,7 @@
         "hostname": "node-us-181.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265347,6 +265983,7 @@
         "hostname": "node-us-213.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265361,6 +265998,7 @@
         "hostname": "node-us-214.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265375,6 +266013,7 @@
         "hostname": "node-us-215.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265389,6 +266028,7 @@
         "hostname": "node-us-227.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265403,6 +266043,7 @@
         "hostname": "node-us-228.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265417,6 +266058,7 @@
         "hostname": "node-us-182.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265431,6 +266073,7 @@
         "hostname": "node-us-183.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265445,6 +266088,7 @@
         "hostname": "node-us-185.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265459,6 +266103,7 @@
         "hostname": "node-us-176.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265473,6 +266118,7 @@
         "hostname": "node-us-177.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265487,6 +266133,7 @@
         "hostname": "node-us-178.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265501,6 +266148,7 @@
         "hostname": "node-us-179.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265515,6 +266163,7 @@
         "hostname": "node-us-187.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265529,6 +266178,7 @@
         "hostname": "node-us-188.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265543,6 +266193,7 @@
         "hostname": "node-us-189.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265557,6 +266208,7 @@
         "hostname": "node-us-218.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265571,6 +266223,7 @@
         "hostname": "node-us-221.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265585,6 +266238,7 @@
         "hostname": "node-us-237.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265599,6 +266253,7 @@
         "hostname": "node-us-160.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265613,6 +266268,7 @@
         "hostname": "node-us-201.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265627,6 +266283,7 @@
         "hostname": "node-us-202.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265641,6 +266298,7 @@
         "hostname": "node-us-134.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265655,6 +266313,7 @@
         "hostname": "node-us-118.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265669,6 +266328,7 @@
         "hostname": "node-us-190.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265683,6 +266343,7 @@
         "hostname": "node-us-144.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265697,6 +266358,7 @@
         "hostname": "node-us-192.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265711,6 +266373,7 @@
         "hostname": "node-us-216.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265725,6 +266388,7 @@
         "hostname": "node-us-194.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265739,6 +266403,7 @@
         "hostname": "node-us-195.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265753,6 +266418,7 @@
         "hostname": "node-us-67.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265767,6 +266433,7 @@
         "hostname": "node-us-197.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265781,6 +266448,7 @@
         "hostname": "node-us-217.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265795,6 +266463,7 @@
         "hostname": "node-us-126.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265809,6 +266478,7 @@
         "hostname": "node-us-260.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265823,6 +266493,7 @@
         "hostname": "node-us-261.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265837,6 +266508,7 @@
         "hostname": "node-us-208.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265851,6 +266523,7 @@
         "hostname": "node-us-158.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "ips": [
           "107.181.245.74"
@@ -265864,6 +266537,7 @@
         "hostname": "node-us-226.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "ips": [
           "74.63.204.210"
@@ -265877,6 +266551,7 @@
         "hostname": "node-us-200.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265891,6 +266566,7 @@
         "hostname": "node-us-250.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265905,6 +266581,7 @@
         "hostname": "node-us-251.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265919,6 +266596,7 @@
         "hostname": "node-us-252.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265933,6 +266611,7 @@
         "hostname": "node-us-255.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265947,6 +266626,7 @@
         "hostname": "node-us-199.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265961,6 +266641,7 @@
         "hostname": "node-us-120.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265975,6 +266656,7 @@
         "hostname": "node-us-246.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -265989,6 +266671,7 @@
         "hostname": "node-us-123.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -266003,6 +266686,7 @@
         "hostname": "node-us-124.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -266017,6 +266701,7 @@
         "hostname": "node-us-223.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -266031,6 +266716,7 @@
         "hostname": "node-us-245.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -266045,6 +266731,7 @@
         "hostname": "node-us-258.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -266059,6 +266746,7 @@
         "hostname": "node-us-259.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -266073,6 +266761,7 @@
         "hostname": "node-us-230.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "ips": [
           "205.142.240.210"
@@ -266086,6 +266775,7 @@
         "hostname": "node-us-256.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -266100,6 +266790,7 @@
         "hostname": "node-us-257.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -266114,6 +266805,7 @@
         "hostname": "node-us-31.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "ips": [
           "69.10.63.242"
@@ -266127,6 +266819,7 @@
         "hostname": "node-us-127.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -266141,6 +266834,7 @@
         "hostname": "uz-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -266155,6 +266849,7 @@
         "hostname": "ve-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -266169,6 +266864,7 @@
         "hostname": "ve-02.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -266183,6 +266879,7 @@
         "hostname": "ve-03.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "stream": true,
         "p2p": true,
         "ips": [
@@ -266197,6 +266894,7 @@
         "hostname": "node-vn-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "secure_core": true,
         "ips": [
           "185.159.156.85"
@@ -266210,6 +266908,7 @@
         "hostname": "node-vn-01.protonvpn.net",
         "tcp": true,
         "udp": true,
+        "free": true,
         "p2p": true,
         "ips": [
           "188.214.152.226"
