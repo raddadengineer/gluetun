@@ -57,6 +57,11 @@ Lightweight swiss-army-knife-like VPN client to multiple VPN service providers
 
 - [Substack Console interview](https://console.substack.com/p/console-72)
 
+## Gluetun Web GUI (Beta)
+
+A polished, Premium Glassmorphism web interface is now included with Gluetun! 
+Navigate to the `gui/` directory to build and deploy the official dashboard. Features include real-time Docker stats monitoring, configuration management, logs streaming, and JWT security. You can easily run it via the provided `docker-compose.yml` alongside your VPN container.
+
 ## Features
 
 - Based on Alpine 3.23 for a small Docker image of 43.1MB

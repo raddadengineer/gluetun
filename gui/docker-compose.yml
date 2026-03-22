@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  gluetun:
+    image: qmcgaw/gluetun
+    container_name: gluetun
+    cap_add:
+      - NET_ADMIN
+    devices:
+      - /dev/net/tun:/dev/net/tun
+    environment:
+      - VPN_SERVICE_PROVIDER=mullvad
+      - VPN_TYPE=wireguard
+      # Provide any other Gluetun configs here...
+    ports:
+      - "8888:8888/tcp" # HTTP proxy
+      - "8388:8388/tcp" # Shadowsocks
+      - "8388:8388/udp" # Shadowsocks
+
+  gluetun-gui:
+    build: .
+    container_name: gluetun-gui
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      # MANDATORY: Required for the GUI to monitor and control the Gluetun container
+      - /var/run/docker.sock:/var/run/docker.sock
+      # Optional: Bind-mount a persistent file to store GUI Settings across container resets
+      # First, touch gui-settings.env on your host machine, then uncomment the line below:
+      # - ./gui-settings.env:/usr/src/app/.env
+    depends_on:
+      - gluetun
