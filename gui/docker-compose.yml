@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   gluetun:
     image: qmcgaw/gluetun
@@ -8,10 +6,8 @@ services:
       - NET_ADMIN
     devices:
       - /dev/net/tun:/dev/net/tun
-    environment:
-      - VPN_SERVICE_PROVIDER=mullvad
-      - VPN_TYPE=wireguard
-      # Provide any other Gluetun configs here...
+    env_file:
+      - ./gluetun.env
     ports:
       - "8888:8888/tcp" # HTTP proxy
       - "8388:8388/tcp" # Shadowsocks
@@ -28,6 +24,9 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
       # Optional: Bind-mount a persistent file to store GUI Settings across container resets
       # First, touch gui-settings.env on your host machine, then uncomment the line below:
-      # - ./gui-settings.env:/usr/src/app/.env
+      - ./gui-settings.env:/usr/src/app/.env
+      # REQUIRED for pia-wg-refresh features: Provide access to the Gluetun config directory
+      - ./gluetun-config:/config
+      - ./gluetun.env:/gluetun.env
     depends_on:
       - gluetun

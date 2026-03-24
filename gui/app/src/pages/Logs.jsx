@@ -7,7 +7,7 @@ export default function Logs() {
   useEffect(() => {
     const token = localStorage.getItem('token');
     const eventSource = new EventSource(`/api/logs?token=${token}`);
-    
+
     eventSource.onmessage = (event) => {
       // Data from SSE arrives as escaped string, parse to unescape
       try {
@@ -44,17 +44,17 @@ export default function Logs() {
           <p>Real-time stdout/stderr from the Gluetun Engine</p>
         </div>
       </header>
-      
-      <div className="glass-panel" style={{ 
-        flex: 1, 
-        display: 'flex', 
-        flexDirection: 'column', 
+
+      <div className="glass-panel" style={{
+        flex: 1,
+        display: 'flex',
+        flexDirection: 'column',
         background: 'rgba(5, 5, 8, 0.85)',
         border: '1px solid rgba(255, 255, 255, 0.1)',
         overflow: 'hidden'
       }}>
-        <div style={{ 
-          padding: '12px 20px', 
+        <div style={{
+          padding: '12px 20px',
           borderBottom: '1px solid rgba(255, 255, 255, 0.05)',
           display: 'flex',
           gap: '8px'
@@ -63,14 +63,14 @@ export default function Logs() {
           <div style={{ width: '12px', height: '12px', borderRadius: '50%', background: '#ffbd2e' }} />
           <div style={{ width: '12px', height: '12px', borderRadius: '50%', background: '#27c93f' }} />
         </div>
-        
-        <div style={{ 
-          flex: 1, 
-          padding: '20px', 
-          overflowY: 'auto', 
-          fontFamily: '"Fira Code", "JetBrains Mono", Consolas, monospace', 
-          fontSize: '13px', 
-          color: '#e2e8f0', 
+
+        <div style={{
+          flex: 1,
+          padding: '20px',
+          overflowY: 'auto',
+          fontFamily: '"Fira Code", "JetBrains Mono", Consolas, monospace',
+          fontSize: '13px',
+          color: '#e2e8f0',
           lineHeight: '1.5'
         }}>
           {logs.map((log, index) => {
@@ -79,7 +79,7 @@ export default function Logs() {
             if (log.toLowerCase().includes('error')) color = '#ef4444';
             else if (log.toLowerCase().includes('warn')) color = '#f59e0b';
             else if (log.toLowerCase().includes('info')) color = '#3b82f6';
-            
+
             return (
               <div key={index} style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-all', color }}>
                 {log}

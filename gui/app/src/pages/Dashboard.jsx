@@ -26,10 +26,10 @@ export default function Dashboard() {
         const data = await res.json();
         const envMap = {};
         if (data.env) {
-           data.env.forEach(e => {
-             const [k, v] = e.split('=');
-             envMap[k] = v;
-           });
+          data.env.forEach(e => {
+            const [k, v] = e.split('=');
+            envMap[k] = v;
+          });
         }
         data.parsedEnv = envMap;
         setStatus(data);
@@ -51,7 +51,7 @@ export default function Dashboard() {
       });
       if (res.ok) {
         const stats = await res.json();
-        
+
         let cpuPercent = 0;
         if (stats.cpu_stats && stats.precpu_stats) {
           const cpuDelta = stats.cpu_stats.cpu_usage.total_usage - stats.precpu_stats.cpu_usage.total_usage;
@@ -60,7 +60,7 @@ export default function Dashboard() {
             cpuPercent = (cpuDelta / systemDelta) * (stats.cpu_stats.online_cpus || 1) * 100.0;
           }
         }
-        
+
         let ramUsage = 0;
         if (stats.memory_stats) {
           ramUsage = stats.memory_stats.usage || 0;
@@ -83,7 +83,7 @@ export default function Dashboard() {
             rxSpeed = Math.max(0, (rx_bytes - prev.rx) / timeDiff);
             txSpeed = Math.max(0, (tx_bytes - prev.tx) / timeDiff);
           }
-          
+
           setMetrics({
             cpu: cpuPercent.toFixed(1),
             ramUsageBytes: ramUsage,
@@ -116,7 +116,7 @@ export default function Dashboard() {
     setLoading(true);
     try {
       const token = localStorage.getItem('token');
-      await fetch('/api/restart', { 
+      await fetch('/api/restart', {
         method: 'POST',
         headers: { 'Authorization': `Bearer ${token}` }
       });
@@ -131,7 +131,7 @@ export default function Dashboard() {
     setLoading(true);
     try {
       const token = localStorage.getItem('token');
-      await fetch('/api/stop', { 
+      await fetch('/api/stop', {
         method: 'POST',
         headers: { 'Authorization': `Bearer ${token}` }
       });
@@ -183,11 +183,11 @@ export default function Dashboard() {
               {isConnected ? 'PROTECTED' : 'OFFLINE'}
             </span>
           </div>
-          
+
           <div className="status-info">
             <h3>{status?.parsedEnv?.VPN_SERVICE_PROVIDER || 'Mullvad'}</h3>
             <p>
-              <span className="material-icons-round" style={{fontSize: '16px'}}>location_on</span>
+              <span className="material-icons-round" style={{ fontSize: '16px' }}>location_on</span>
               {status?.parsedEnv?.SERVER_COUNTRIES || 'Global'} Connection
             </p>
           </div>
@@ -195,15 +195,15 @@ export default function Dashboard() {
 
         <div className="glass-panel status-card">
           <div className="status-header">
-            <div className="status-icon-wrapper" style={{borderColor: 'rgba(255,255,255,0.2)'}}>
+            <div className="status-icon-wrapper" style={{ borderColor: 'rgba(255,255,255,0.2)' }}>
               <span className="material-icons-round">swap_vert</span>
             </div>
-            <span className="status-badge" style={{background: 'var(--glass-bg)', color: 'var(--text-secondary)'}}>PROTOCOL</span>
+            <span className="status-badge" style={{ background: 'var(--glass-bg)', color: 'var(--text-secondary)' }}>PROTOCOL</span>
           </div>
           <div className="status-info">
-            <h3 style={{fontSize: '24px'}}>{status?.parsedEnv?.VPN_TYPE?.toUpperCase() || 'WIREGUARD'}</h3>
+            <h3 style={{ fontSize: '24px' }}>{status?.parsedEnv?.VPN_TYPE?.toUpperCase() || 'WIREGUARD'}</h3>
             <p>
-              <span className="material-icons-round" style={{fontSize: '16px'}}>speed</span>
+              <span className="material-icons-round" style={{ fontSize: '16px' }}>speed</span>
               Optimal MTU Settings Enforced
             </p>
           </div>
@@ -211,15 +211,15 @@ export default function Dashboard() {
 
         <div className="glass-panel status-card">
           <div className="status-header">
-            <div className="status-icon-wrapper" style={{borderColor: 'rgba(255,255,255,0.2)'}}>
+            <div className="status-icon-wrapper" style={{ borderColor: 'rgba(255,255,255,0.2)' }}>
               <span className="material-icons-round">memory</span>
             </div>
-            <span className="status-badge" style={{background: 'var(--glass-bg)', color: 'var(--text-secondary)'}}>RESOURCES</span>
+            <span className="status-badge" style={{ background: 'var(--glass-bg)', color: 'var(--text-secondary)' }}>RESOURCES</span>
           </div>
           <div className="status-info">
-            <h3 style={{fontSize: '24px'}}>{metrics?.cpu || '0.0'}% CPU</h3>
+            <h3 style={{ fontSize: '24px' }}>{metrics?.cpu || '0.0'}% CPU</h3>
             <p>
-              <span className="material-icons-round" style={{fontSize: '16px', position: 'relative', top: '3px', marginRight: '4px'}}>storage</span>
+              <span className="material-icons-round" style={{ fontSize: '16px', position: 'relative', top: '3px', marginRight: '4px' }}>storage</span>
               {metrics ? formatBytes(metrics.ramUsageBytes) : '0 MB'} RAM
             </p>
           </div>
@@ -227,15 +227,15 @@ export default function Dashboard() {
 
         <div className="glass-panel status-card">
           <div className="status-header">
-            <div className="status-icon-wrapper" style={{borderColor: 'rgba(255,255,255,0.2)'}}>
+            <div className="status-icon-wrapper" style={{ borderColor: 'rgba(255,255,255,0.2)' }}>
               <span className="material-icons-round">swap_calls</span>
             </div>
-            <span className="status-badge" style={{background: 'var(--glass-bg)', color: 'var(--text-secondary)'}}>NETWORK</span>
+            <span className="status-badge" style={{ background: 'var(--glass-bg)', color: 'var(--text-secondary)' }}>NETWORK</span>
           </div>
           <div className="status-info">
-            <h3 style={{fontSize: '24px'}}>&#8595; {metrics ? formatBytes(metrics.rxSpeed) : '0 B'}/s</h3>
+            <h3 style={{ fontSize: '24px' }}>&#8595; {metrics ? formatBytes(metrics.rxSpeed) : '0 B'}/s</h3>
             <p style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-              <span style={{fontSize: '14px', color: 'var(--text-secondary)'}}>&#8593; {metrics ? formatBytes(metrics.txSpeed) : '0 B'}/s</span> &bull; {metrics ? formatBytes(metrics.totalRx, 0) : '0 B'} Total
+              <span style={{ fontSize: '14px', color: 'var(--text-secondary)' }}>&#8593; {metrics ? formatBytes(metrics.txSpeed) : '0 B'}/s</span> &bull; {metrics ? formatBytes(metrics.totalRx, 0) : '0 B'} Total
             </p>
           </div>
         </div>
@@ -264,37 +264,37 @@ export default function Dashboard() {
         </div>
 
         <div className="glass-panel control-section">
-           <h3><span className="material-icons-round">router</span> Internal Network</h3>
-           <div className="toggle-switch-container">
-             <div className="toggle-info">
-               <strong>Shadowsocks Proxy</strong>
-               <span>Port 8388 • SOCKS5</span>
-             </div>
-             <label className="switch">
-               <input type="checkbox" defaultChecked />
-               <span className="slider"></span>
-             </label>
-           </div>
-           <div className="toggle-switch-container">
-             <div className="toggle-info">
-               <strong>HTTP Proxy</strong>
-               <span>Port 8888 • HTTP Tunnelling</span>
-             </div>
-             <label className="switch">
-               <input type="checkbox" defaultChecked />
-               <span className="slider"></span>
-             </label>
-           </div>
-           <div className="toggle-switch-container">
-             <div className="toggle-info">
-               <strong>Adblock Guard</strong>
-               <span>DNS Blocklists Enabled</span>
-             </div>
-             <label className="switch">
-               <input type="checkbox" defaultChecked />
-               <span className="slider"></span>
-             </label>
-           </div>
+          <h3><span className="material-icons-round">router</span> Internal Network</h3>
+          <div className="toggle-switch-container">
+            <div className="toggle-info">
+              <strong>Shadowsocks Proxy</strong>
+              <span>Port 8388 • SOCKS5</span>
+            </div>
+            <label className="switch">
+              <input type="checkbox" defaultChecked />
+              <span className="slider"></span>
+            </label>
+          </div>
+          <div className="toggle-switch-container">
+            <div className="toggle-info">
+              <strong>HTTP Proxy</strong>
+              <span>Port 8888 • HTTP Tunnelling</span>
+            </div>
+            <label className="switch">
+              <input type="checkbox" defaultChecked />
+              <span className="slider"></span>
+            </label>
+          </div>
+          <div className="toggle-switch-container">
+            <div className="toggle-info">
+              <strong>Adblock Guard</strong>
+              <span>DNS Blocklists Enabled</span>
+            </div>
+            <label className="switch">
+              <input type="checkbox" defaultChecked />
+              <span className="slider"></span>
+            </label>
+          </div>
         </div>
       </div>
     </div>
