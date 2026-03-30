@@ -9,7 +9,7 @@ export default function Settings() {
   // PIA WireGuard state
   const [piaUsername, setPiaUsername] = useState('');
   const [piaPassword, setPiaPassword] = useState('');
-  const [piaRegion, setPiaRegion] = useState('');
+  const [piaRegionsList, setPiaRegionsList] = useState([]);
   const [piaPortForwarding, setPiaPortForwarding] = useState(false);
   const [piaGenerating, setPiaGenerating] = useState(false);
   const [piaStatus, setPiaStatus] = useState(null);
@@ -24,7 +24,8 @@ export default function Settings() {
         setConfig(data);
         if (data.PIA_USERNAME) setPiaUsername(data.PIA_USERNAME);
         if (data.PIA_PASSWORD) setPiaPassword(data.PIA_PASSWORD);
-        if (data.PIA_REGION) setPiaRegion(data.PIA_REGION);
+        if (data.PIA_REGIONS) setPiaRegionsList(data.PIA_REGIONS.split(',').filter(Boolean));
+        else if (data.PIA_REGION) setPiaRegionsList([data.PIA_REGION]);
         if (data.PIA_PORT_FORWARDING === 'true') setPiaPortForwarding(true);
       })
       .catch(console.error);
@@ -59,7 +60,7 @@ export default function Settings() {
         body: JSON.stringify({
           PIA_USERNAME: piaUsername,
           PIA_PASSWORD: piaPassword,
-          PIA_REGION: piaRegion,
+          PIA_REGIONS: piaRegionsList.join(','),
           PIA_PORT_FORWARDING: piaPortForwarding ? 'true' : 'false'
         })
       });
@@ -88,18 +89,21 @@ export default function Settings() {
     setSaving(true);
     try {
       const token = localStorage.getItem('token');
+      const saveData = { ...config, PIA_REGIONS: piaRegionsList.join(',') };
       const res = await fetch('/api/config', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
           'Authorization': `Bearer ${token}`
         },
-        body: JSON.stringify(config)
+        body: JSON.stringify(saveData)
       });
       if (res.ok) {
-        setMessage({ type: 'success', text: 'All settings securely saved to .env file!' });
+        const data = await res.json().catch(() => ({}));
+        setMessage({ type: 'success', text: data.message || 'All settings securely saved to .env file!' });
       } else {
-        setMessage({ type: 'error', text: 'Failed to save settings.' });
+        const errData = await res.json().catch(() => ({}));
+        setMessage({ type: 'error', text: errData.error || `Server returned ${res.status}: ${res.statusText}` });
       }
     } catch (err) {
       setMessage({ type: 'error', text: err.message });
@@ -149,6 +153,9 @@ export default function Settings() {
         </button>
         <button className={`tab-btn ${activeTab === 'proxies' ? 'active' : ''}`} onClick={() => setActiveTab('proxies')}>
           <span className="material-icons-round">cell_wifi</span> Local Proxies
+        </button>
+        <button className={`tab-btn ${activeTab === 'advanced' ? 'active' : ''}`} onClick={() => setActiveTab('advanced')}>
+          <span className="material-icons-round">settings_applications</span> Advanced
         </button>
       </div>
 
@@ -250,35 +257,63 @@ export default function Settings() {
                     </div>
                   </div>
 
-                  <div className="form-group">
-                    <label>PIA Region</label>
-                    <select value={piaRegion} onChange={e => setPiaRegion(e.target.value)} className="select-input">
-                      <option value="">Select a region...</option>
-                      {piaRegions.length > 0 ? (
-                        piaRegions.map(r => (
-                          <option key={r.id} value={r.id}>
-                            {r.name}{r.portForward ? ' ✓PF' : ''}
-                          </option>
-                        ))
-                      ) : (
-                        <>
-                          <option value="us_california">US California</option>
-                          <option value="us_chicago">US Chicago</option>
-                          <option value="us_east">US East</option>
-                          <option value="us_new_york_city">US New York</option>
-                          <option value="ca_toronto">CA Toronto</option>
-                          <option value="uk">UK London</option>
-                          <option value="nl_amsterdam">Netherlands</option>
-                          <option value="france">France</option>
-                          <option value="sweden">SE Stockholm</option>
-                          <option value="japan">JP Tokyo</option>
-                        </>
-                      )}
-                    </select>
-                    <button type="button" onClick={fetchPiaRegions} className="btn" style={{ marginTop: '8px', background: 'rgba(59, 130, 246, 0.1)', border: '1px solid rgba(59, 130, 246, 0.2)', color: 'var(--accent-primary)' }}>
-                      <span className="material-icons-round" style={{ fontSize: '16px' }}>refresh</span>
-                      Refresh Regions ({piaRegions.length} loaded)
-                    </button>
+                  <div className="form-group" style={{ marginBottom: '16px' }}>
+                    <label>PIA Regions (Auto-Failover Sequence)</label>
+                    <div style={{ padding: '16px', background: 'rgba(0,0,0,0.2)', borderRadius: '12px', border: '1px solid var(--glass-border)' }}>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
+                        <span style={{ fontSize: '14px', fontWeight: 600 }}>Selected: {piaRegionsList.length}</span>
+                        <button type="button" onClick={fetchPiaRegions} className="btn" style={{ padding: '6px 12px', fontSize: '13px', background: 'rgba(59, 130, 246, 0.1)' }}>
+                          <span className="material-icons-round" style={{ fontSize: '14px' }}>refresh</span> Refresh List
+                        </button>
+                      </div>
+                      
+                      <div style={{ 
+                        display: 'flex', flexWrap: 'wrap', gap: '8px', maxHeight: '200px', overflowY: 'auto', 
+                        padding: '12px', background: 'rgba(0,0,0,0.3)', borderRadius: '8px', border: '1px inset rgba(255,255,255,0.05)'
+                      }}>
+                        {piaRegions.length > 0 ? piaRegions.map(r => {
+                          const isSelected = piaRegionsList.includes(r.id);
+                          return (
+                            <div 
+                              key={r.id} 
+                              onClick={() => {
+                                if (isSelected) setPiaRegionsList(piaRegionsList.filter(x => x !== r.id));
+                                else setPiaRegionsList([...piaRegionsList, r.id]);
+                              }}
+                              style={{ 
+                                padding: '6px 12px', borderRadius: '16px', fontSize: '13px', cursor: 'pointer',
+                                display: 'flex', alignItems: 'center', gap: '6px', transition: 'all 0.2s',
+                                background: isSelected ? 'var(--accent-primary)' : 'rgba(255,255,255,0.05)',
+                                color: isSelected ? '#fff' : 'var(--text-secondary)',
+                                border: `1px solid ${isSelected ? 'var(--accent-primary)' : 'rgba(255,255,255,0.1)'}`
+                              }}
+                            >
+                              {r.name}{r.portForward ? <span style={{fontSize:'10px', background:'rgba(0,0,0,0.3)', padding:'2px 4px', borderRadius:'4px', marginLeft: '4px'}}>PF</span> : ''}
+                              {isSelected && <span className="material-icons-round" style={{ fontSize: '14px' }}>check</span>}
+                            </div>
+                          );
+                        }) : (
+                          <div style={{ color: 'var(--text-secondary)', fontSize: '13px', fontStyle: 'italic', width: '100%', textAlign: 'center', padding: '16px' }}>
+                            Click "Refresh List" to download available regions from PIA...
+                          </div>
+                        )}
+                      </div>
+                      <p style={{ fontSize: '12px', color: 'var(--text-secondary)', marginTop: '12px', marginBottom: 0 }}>
+                        Click regions to toggle. They will be attempted in the order they were selected: 
+                        <strong style={{ color: 'var(--accent-primary)', marginLeft: '6px' }}>{piaRegionsList.join(' ➜ ') || 'None selected'}</strong>
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '24px', marginBottom: '16px' }}>
+                    <div className="form-group">
+                      <label>Auto-Failover Retries</label>
+                      <input type="number" name="PIA_ROTATION_RETRIES" value={config.PIA_ROTATION_RETRIES || '3'} onChange={handleChange} className="text-input" placeholder="3" />
+                    </div>
+                    <div className="form-group">
+                      <label>Rotation Interval Limit</label>
+                      <input type="number" name="PIA_ROTATION_COUNT" value={config.PIA_ROTATION_COUNT || '0'} onChange={handleChange} className="text-input" title="0 for infinite" placeholder="0 = infinite" />
+                    </div>
                   </div>
 
                   <div className="toggle-switch-container" style={{ padding: '16px', background: 'rgba(0,0,0,0.2)', borderRadius: '12px' }}>
@@ -295,7 +330,7 @@ export default function Settings() {
                   <button
                     type="button"
                     onClick={handlePiaGenerate}
-                    disabled={piaGenerating || !piaUsername || !piaPassword || !piaRegion}
+                    disabled={piaGenerating || !piaUsername || !piaPassword || piaRegionsList.length === 0}
                     className="btn btn-primary"
                     style={{ width: '100%', padding: '16px', fontSize: '16px', marginTop: '8px' }}
                   >
@@ -364,6 +399,9 @@ export default function Settings() {
                   </div>
                 </>
               )}
+
+
+
             </>
           )}
 
@@ -385,6 +423,46 @@ export default function Settings() {
               <div className="form-group">
                 <label>Custom Built-in DNS Servers</label>
                 <input type="text" name="DNS_ADDRESS" value={config.DNS_ADDRESS || ''} onChange={handleChange} className="text-input" placeholder="127.0.0.1" />
+              </div>
+
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '24px', marginTop: '16px' }}>
+                <div className="toggle-switch-container" style={{ padding: '16px', background: 'rgba(0,0,0,0.2)', borderRadius: '12px' }}>
+                  <div className="toggle-info">
+                    <strong style={{ fontSize: '15px' }}>Enable DoT</strong>
+                    <span>Use DNS over TLS for DNS lookups</span>
+                  </div>
+                  <label className="switch">
+                    <input type="checkbox" name="DOT" checked={config.DOT !== 'off'} onChange={handleChange} />
+                    <span className="slider"></span>
+                  </label>
+                </div>
+                <div className="toggle-switch-container" style={{ padding: '16px', background: 'rgba(0,0,0,0.2)', borderRadius: '12px' }}>
+                  <div className="toggle-info">
+                    <strong style={{ fontSize: '15px' }}>DoT Caching</strong>
+                    <span>Cache DNS queries internally</span>
+                  </div>
+                  <label className="switch">
+                    <input type="checkbox" name="DOT_CACHING" checked={config.DOT_CACHING !== 'off'} onChange={handleChange} />
+                    <span className="slider"></span>
+                  </label>
+                </div>
+              </div>
+
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '24px', marginTop: '16px' }}>
+                <div className="form-group">
+                  <label>DNS Update Period</label>
+                  <input type="text" name="DNS_UPDATE_PERIOD" value={config.DNS_UPDATE_PERIOD || ''} onChange={handleChange} className="text-input" placeholder="e.g. 24h" />
+                </div>
+                <div className="toggle-switch-container" style={{ padding: '16px', background: 'rgba(0,0,0,0.2)', borderRadius: '12px' }}>
+                  <div className="toggle-info">
+                    <strong style={{ fontSize: '15px' }}>Public IP Enabled</strong>
+                    <span>Periodically check your public IP</span>
+                  </div>
+                  <label className="switch">
+                    <input type="checkbox" name="PUBLICIP_ENABLED" checked={config.PUBLICIP_ENABLED !== 'off'} onChange={handleChange} />
+                    <span className="slider"></span>
+                  </label>
+                </div>
               </div>
 
               <hr style={{ border: 'none', borderTop: '1px solid var(--glass-border)', margin: '12px 0' }} />
@@ -442,6 +520,17 @@ export default function Settings() {
                 </div>
                 <label className="switch">
                   <input type="checkbox" name="FIREWALL" checked={config.FIREWALL !== 'off'} onChange={handleChange} />
+                  <span className="slider"></span>
+                </label>
+              </div>
+
+              <div className="toggle-switch-container" style={{ padding: '16px', background: 'rgba(0,0,0,0.2)', borderRadius: '12px', marginTop: '16px' }}>
+                <div className="toggle-info">
+                  <strong style={{ fontSize: '16px' }}>Firewall Debugging</strong>
+                  <span style={{ color: 'var(--text-secondary)' }}>Log detailed firewall operations to console</span>
+                </div>
+                <label className="switch">
+                  <input type="checkbox" name="FIREWALL_DEBUG" checked={config.FIREWALL_DEBUG === 'on'} onChange={handleChange} />
                   <span className="slider"></span>
                 </label>
               </div>
@@ -541,6 +630,28 @@ export default function Settings() {
                 <input type="password" name="SHADOWSOCKS_PASSWORD" value={config.SHADOWSOCKS_PASSWORD || ''} onChange={handleChange} className="text-input" placeholder="Super Secure Password" />
               </div>
 
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '24px', marginTop: '16px' }}>
+                <div className="form-group">
+                  <label>Listening Address</label>
+                  <input type="text" name="SHADOWSOCKS_LISTENING_ADDRESS" value={config.SHADOWSOCKS_LISTENING_ADDRESS || ''} onChange={handleChange} className="text-input" placeholder="e.g. :8388" />
+                </div>
+                <div className="form-group">
+                  <label>Cipher</label>
+                  <input type="text" name="SHADOWSOCKS_CIPHER" value={config.SHADOWSOCKS_CIPHER || ''} onChange={handleChange} className="text-input" placeholder="e.g. chacha20-ietf-poly1305" />
+                </div>
+              </div>
+
+              <div className="toggle-switch-container" style={{ marginTop: '16px' }}>
+                <div className="toggle-info">
+                  <strong style={{ fontSize: '15px' }}>Shadowsocks Tracing Log</strong>
+                  <span>Enable detailed traffic logging for Shadowsocks proxy</span>
+                </div>
+                <label className="switch">
+                  <input type="checkbox" name="SHADOWSOCKS_LOG" checked={config.SHADOWSOCKS_LOG === 'on'} onChange={handleChange} />
+                  <span className="slider"></span>
+                </label>
+              </div>
+
               <hr style={{ border: 'none', borderTop: '1px solid var(--glass-border)', margin: '16px 0' }} />
 
               <h3 style={{ fontSize: '18px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '8px' }}>
@@ -569,9 +680,82 @@ export default function Settings() {
                   <input type="password" name="HTTPPROXY_PASSWORD" value={config.HTTPPROXY_PASSWORD || ''} onChange={handleChange} className="text-input" placeholder="Proxy Password" />
                 </div>
               </div>
+
+              <div className="toggle-switch-container" style={{ marginTop: '16px' }}>
+                <div className="toggle-info">
+                  <strong style={{ fontSize: '15px' }}>HTTP Proxy Tracing Log</strong>
+                  <span>Enable detailed traffic logging for HTTP proxy</span>
+                </div>
+                <label className="switch">
+                  <input type="checkbox" name="HTTPPROXY_LOG" checked={config.HTTPPROXY_LOG === 'on'} onChange={handleChange} />
+                  <span className="slider"></span>
+                </label>
+              </div>
             </>
           )}
 
+          {activeTab === 'advanced' && (
+            <>
+              <div style={{ padding: '16px', borderRadius: '8px', background: 'rgba(59, 130, 246, 0.1)', border: '1px solid var(--glass-highlight)', marginBottom: '16px' }}>
+                <p style={{ display: 'flex', alignItems: 'center', gap: '8px', margin: 0 }}>
+                  <span className="material-icons-round" style={{ color: 'var(--accent-primary)' }}>warning</span>
+                  These advanced settings strictly control the internal Gluetun engine behavior.
+                </p>
+              </div>
+
+              <h3 style={{ fontSize: '18px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <span className="material-icons-round" style={{ color: 'var(--accent-primary)' }}>bug_report</span>
+                Logging & Debugging
+              </h3>
+              
+              <div className="form-group">
+                <label>Gluetun Log Level</label>
+                <select name="LOG_LEVEL" value={config.LOG_LEVEL || 'debug'} onChange={handleChange} className="select-input">
+                  <option value="info">Info</option>
+                  <option value="debug">Debug (Verbose)</option>
+                  <option value="warn">Warn</option>
+                  <option value="error">Error</option>
+                  <option value="fatal">Fatal</option>
+                </select>
+                <p style={{ fontSize: '12px', color: 'var(--text-secondary)', marginTop: '8px' }}>
+                  Sets the internal verbosity for the Gluetun VPN container processes.
+                </p>
+              </div>
+
+              <hr style={{ border: 'none', borderTop: '1px solid var(--glass-border)', margin: '16px 0' }} />
+              
+              <h3 style={{ fontSize: '18px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <span className="material-icons-round" style={{ color: 'var(--accent-primary)' }}>update</span>
+                Servers Updater Configuration
+              </h3>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '24px' }}>
+                <div className="form-group">
+                  <label>Updater Period</label>
+                  <input type="text" name="UPDATER_PERIOD" value={config.UPDATER_PERIOD || ''} onChange={handleChange} className="text-input" placeholder="e.g. 24h, 0 to disable" />
+                </div>
+                <div className="form-group">
+                  <label>Updater Min Ratio</label>
+                  <input type="number" step="0.1" name="UPDATER_MIN_RATIO" value={config.UPDATER_MIN_RATIO || ''} onChange={handleChange} className="text-input" placeholder="e.g. 1.0" />
+                </div>
+              </div>
+              <div className="form-group">
+                <label>Updater VPN Service Providers</label>
+                <input type="text" name="UPDATER_VPN_SERVICE_PROVIDERS" value={config.UPDATER_VPN_SERVICE_PROVIDERS || ''} onChange={handleChange} className="text-input" placeholder="Comma separated, e.g. mullvad,pia" />
+              </div>
+
+              <hr style={{ border: 'none', borderTop: '1px solid var(--glass-border)', margin: '16px 0' }} />
+              
+              <h3 style={{ fontSize: '18px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <span className="material-icons-round" style={{ color: 'var(--accent-primary)' }}>more_horiz</span>
+                Miscellaneous Settings
+              </h3>
+              <div className="form-group">
+                <label>Timezone (TZ)</label>
+                <input type="text" name="TZ" value={config.TZ || ''} onChange={handleChange} className="text-input" placeholder="e.g. America/New_York" />
+              </div>
+
+            </>
+          )}
 
         </form>
       </div>

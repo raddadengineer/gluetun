@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+import { formatDistanceToNow } from 'date-fns';
+import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from 'recharts';
 
 export default function Dashboard() {
   const [status, setStatus] = useState(null);
@@ -6,6 +8,7 @@ export default function Dashboard() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [metrics, setMetrics] = useState(null);
   const [prevNet, setPrevNet] = useState({ rx: 0, tx: 0, time: Date.now() });
+  const [netHistory, setNetHistory] = useState([]);
 
   const formatBytes = (bytes, decimals = 1) => {
     if (!+bytes) return '0 B';
@@ -93,6 +96,16 @@ export default function Dashboard() {
             totalTx: tx_bytes
           });
 
+          setNetHistory(prevHist => {
+            const histItem = {
+              time: new Date().toLocaleTimeString([], { hour12: false, hour: '2-digit', minute: '2-digit', second: '2-digit' }),
+              Incoming: rxSpeed / 1024, // KB
+              Outgoing: txSpeed / 1024, // KB
+            };
+            const newHist = [...prevHist, histItem];
+            return newHist.slice(Math.max(newHist.length - 15, 0));
+          });
+
           return { rx: rx_bytes, tx: tx_bytes, time: now };
         });
       }
@@ -142,6 +155,21 @@ export default function Dashboard() {
     }
   };
 
+  const handleTestFailover = async () => {
+    setLoading(true);
+    try {
+      const token = localStorage.getItem('token');
+      await fetch('/api/test-failover', {
+        method: 'POST',
+        headers: { 'Authorization': `Bearer ${token}` }
+      });
+      await fetchStatus();
+    } catch (e) {
+      console.error(e);
+      setLoading(false);
+    }
+  };
+
   const isConnected = status && status.status === 'running';
 
   return (
@@ -163,6 +191,10 @@ export default function Dashboard() {
               <button className="dropdown-item" onClick={() => { setMenuOpen(false); handleRestart(); }} disabled={loading}>
                 <span className="material-icons-round" style={{ fontSize: '18px' }}>autorenew</span>
                 {loading ? "Waiting..." : "Restart Engine"}
+              </button>
+              <button className="dropdown-item" onClick={() => { setMenuOpen(false); handleTestFailover(); }} disabled={loading}>
+                <span className="material-icons-round" style={{ fontSize: '18px' }}>rotate_right</span>
+                {loading ? "Waiting..." : "Test Auto-Failover"}
               </button>
               <button className="dropdown-item danger" onClick={() => { setMenuOpen(false); handleStop(); }} disabled={loading}>
                 <span className="material-icons-round" style={{ fontSize: '18px' }}>power_settings_new</span>
@@ -187,8 +219,8 @@ export default function Dashboard() {
           <div className="status-info">
             <h3>{status?.parsedEnv?.VPN_SERVICE_PROVIDER || 'Mullvad'}</h3>
             <p>
-              <span className="material-icons-round" style={{ fontSize: '16px' }}>location_on</span>
-              {status?.parsedEnv?.SERVER_COUNTRIES || 'Global'} Connection
+              <span className="material-icons-round" style={{ fontSize: '16px' }}>schedule</span>
+              {status?.startedAt ? `Connected ${formatDistanceToNow(new Date(status.startedAt))} ago` : 'Uptime Unknown'}
             </p>
           </div>
         </div>
@@ -241,27 +273,25 @@ export default function Dashboard() {
         </div>
       </div>
 
-      <div className="dashboard-grid">
-        <div className="glass-panel control-section">
-          <h3><span className="material-icons-round">tune</span> Quick Config</h3>
-          <div className="form-group">
-            <label>Service Provider</label>
-            <select className="select-input" defaultValue={status?.parsedEnv?.VPN_SERVICE_PROVIDER || "mullvad"}>
-              <option value="mullvad">Mullvad</option>
-              <option value="protonvpn">ProtonVPN</option>
-              <option value="private internet access">Private Internet Access</option>
-              <option value="nordvpn">NordVPN</option>
-              <option value="surfshark">Surfshark</option>
-            </select>
-          </div>
-          <div className="form-group">
-            <label>VPN Protocol</label>
-            <select className="select-input" defaultValue={status?.parsedEnv?.VPN_TYPE || "wireguard"}>
-              <option value="wireguard">WireGuard</option>
-              <option value="openvpn">OpenVPN</option>
-            </select>
-          </div>
+      <div className="dashboard-grid glass-panel" style={{ marginTop: '24px', padding: '24px' }}>
+        <h3 style={{ marginBottom: '16px' }}><span className="material-icons-round">insights</span> Network Throughput (KB/s)</h3>
+        <div style={{ height: '250px', width: '100%' }}>
+          <ResponsiveContainer width="100%" height="100%">
+            <LineChart data={netHistory} margin={{ top: 5, right: 10, left: 10, bottom: 5 }}>
+              <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.1)" />
+              <XAxis dataKey="time" stroke="rgba(255,255,255,0.4)" fontSize={12} />
+              <YAxis stroke="rgba(255,255,255,0.4)" fontSize={12} />
+              <Tooltip 
+                contentStyle={{ background: 'rgba(0,0,0,0.8)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px' }} 
+              />
+              <Line type="monotone" dataKey="Incoming" stroke="#3b82f6" strokeWidth={2} dot={false} isAnimationActive={false} />
+              <Line type="monotone" dataKey="Outgoing" stroke="#f59e0b" strokeWidth={2} dot={false} isAnimationActive={false} />
+            </LineChart>
+          </ResponsiveContainer>
         </div>
+      </div>
+
+      <div className="dashboard-grid" style={{ marginTop: '24px' }}>
 
         <div className="glass-panel control-section">
           <h3><span className="material-icons-round">router</span> Internal Network</h3>

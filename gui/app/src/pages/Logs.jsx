@@ -2,6 +2,8 @@ import { useEffect, useState, useRef } from 'react';
 
 export default function Logs() {
   const [logs, setLogs] = useState([]);
+  const [wordWrap, setWordWrap] = useState(true);
+  const [autoScroll, setAutoScroll] = useState(true);
   const bottomRef = useRef(null);
 
   useEffect(() => {
@@ -31,17 +33,27 @@ export default function Logs() {
   }, []);
 
   useEffect(() => {
-    if (bottomRef.current) {
+    if (autoScroll && bottomRef.current) {
       bottomRef.current.scrollIntoView();
     }
-  }, [logs]);
+  }, [logs, autoScroll]);
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
-      <header className="header" style={{ marginBottom: '24px' }}>
+      <header className="header" style={{ marginBottom: '24px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <div className="header-title">
           <h2>Container Logs</h2>
           <p>Real-time stdout/stderr from the Gluetun Engine</p>
+        </div>
+        <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
+          <label style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--text-secondary)', cursor: 'pointer', fontSize: '14px' }}>
+            <input type="checkbox" checked={wordWrap} onChange={(e) => setWordWrap(e.target.checked)} />
+            Word Wrap
+          </label>
+          <label style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--text-secondary)', cursor: 'pointer', fontSize: '14px' }}>
+            <input type="checkbox" checked={autoScroll} onChange={(e) => setAutoScroll(e.target.checked)} />
+            Auto-Scroll Bottom
+          </label>
         </div>
       </header>
 
@@ -74,14 +86,17 @@ export default function Logs() {
           lineHeight: '1.5'
         }}>
           {logs.map((log, index) => {
-            // Apply slight syntax highlighting hacks if needed
+            // Apply log severity color coding
             let color = '#e2e8f0';
-            if (log.toLowerCase().includes('error')) color = '#ef4444';
-            else if (log.toLowerCase().includes('warn')) color = '#f59e0b';
-            else if (log.toLowerCase().includes('info')) color = '#3b82f6';
+            const text = log.toLowerCase();
+            if (text.includes('fatal') || text.includes('panic')) color = '#dc2626'; // deeper red
+            else if (text.includes('error')) color = '#ef4444';
+            else if (text.includes('warn')) color = '#f59e0b';
+            else if (text.includes('info')) color = '#3b82f6';
+            else if (text.includes('debug')) color = '#a855f7'; // purple
 
             return (
-              <div key={index} style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-all', color }}>
+              <div key={index} style={{ whiteSpace: wordWrap ? 'pre-wrap' : 'pre', wordBreak: wordWrap ? 'break-all' : 'normal', color }}>
                 {log}
               </div>
             );

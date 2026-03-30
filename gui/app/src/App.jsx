@@ -6,6 +6,19 @@ import Logs from './pages/Logs';
 import Settings from './pages/Settings';
 import Login from './pages/Login';
 
+// Global fetch wrapper to handle JWT expiration seamlessly
+const originalFetch = window.fetch;
+window.fetch = async (...args) => {
+  const response = await originalFetch(...args);
+  if (response.status === 401 || response.status === 403) {
+    if (localStorage.getItem('token')) {
+      localStorage.removeItem('token');
+      window.location.href = '/login';
+    }
+  }
+  return response;
+};
+
 const ProtectedRoute = ({ children }) => {
   const token = localStorage.getItem('token');
   if (!token) {
