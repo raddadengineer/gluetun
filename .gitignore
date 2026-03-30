@@ -1,3 +1,7 @@
 scratch.txt
 .DS_Store
 node_modules/
+
+# Secrets & Configs
+*.env
+*.conf
